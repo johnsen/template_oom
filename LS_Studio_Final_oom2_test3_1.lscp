@@ -1,0 +1,791 @@
+RESET
+SET VOLUME 0.83
+
+CREATE MIDI_INPUT_DEVICE JACK NAME=LSJPort0
+SET MIDI_INPUT_DEVICE_PARAMETER 0 PORTS=14
+SET MIDI_INPUT_PORT_PARAMETER 0 0 NAME='DanDean-Bassguitar'
+SET MIDI_INPUT_PORT_PARAMETER 0 0 JACK_BINDINGS=NONE
+SET MIDI_INPUT_PORT_PARAMETER 0 1 NAME='Grand-Piano'
+SET MIDI_INPUT_PORT_PARAMETER 0 1 JACK_BINDINGS=NONE
+SET MIDI_INPUT_PORT_PARAMETER 0 2 NAME='FCH-Trumpet'
+SET MIDI_INPUT_PORT_PARAMETER 0 2 JACK_BINDINGS=NONE
+SET MIDI_INPUT_PORT_PARAMETER 0 3 NAME='FCH-Flugelhorn'
+SET MIDI_INPUT_PORT_PARAMETER 0 3 JACK_BINDINGS=NONE
+SET MIDI_INPUT_PORT_PARAMETER 0 4 NAME='FCH-PiccoloTrumpet'
+SET MIDI_INPUT_PORT_PARAMETER 0 4 JACK_BINDINGS=NONE
+SET MIDI_INPUT_PORT_PARAMETER 0 5 NAME='FCH-Trombone'
+SET MIDI_INPUT_PORT_PARAMETER 0 5 JACK_BINDINGS=NONE
+SET MIDI_INPUT_PORT_PARAMETER 0 6 NAME='FCH-TenorSax'
+SET MIDI_INPUT_PORT_PARAMETER 0 6 JACK_BINDINGS=NONE
+SET MIDI_INPUT_PORT_PARAMETER 0 7 NAME='FCH-AltoSax'
+SET MIDI_INPUT_PORT_PARAMETER 0 7 JACK_BINDINGS=NONE
+SET MIDI_INPUT_PORT_PARAMETER 0 8 NAME='FCH-BariSax'
+SET MIDI_INPUT_PORT_PARAMETER 0 8 JACK_BINDINGS=NONE
+SET MIDI_INPUT_PORT_PARAMETER 0 9 NAME='FCH-SopranoSax-solo'
+SET MIDI_INPUT_PORT_PARAMETER 0 9 JACK_BINDINGS=NONE
+SET MIDI_INPUT_PORT_PARAMETER 0 10 NAME='FCH-FrenchHorn'
+SET MIDI_INPUT_PORT_PARAMETER 0 10 JACK_BINDINGS=NONE
+SET MIDI_INPUT_PORT_PARAMETER 0 11 NAME='FCH-Combi-ASax-Tpt'
+SET MIDI_INPUT_PORT_PARAMETER 0 11 JACK_BINDINGS=NONE
+SET MIDI_INPUT_PORT_PARAMETER 0 12 NAME='FCH-Combi-Tpt-Tb'
+SET MIDI_INPUT_PORT_PARAMETER 0 12 JACK_BINDINGS=NONE
+SET MIDI_INPUT_PORT_PARAMETER 0 13 NAME='NDK-Funkkit'
+SET MIDI_INPUT_PORT_PARAMETER 0 13 JACK_BINDINGS=NONE
+#SET MIDI_INPUT_PORT_PARAMETER 0 14 NAME='NDK-Cymbals'
+#SET MIDI_INPUT_PORT_PARAMETER 0 14 JACK_BINDINGS=NONE
+#SET MIDI_INPUT_PORT_PARAMETER 0 15 NAME='KD-20_Punch-NDK'
+#SET MIDI_INPUT_PORT_PARAMETER 0 15 JACK_BINDINGS=NONE
+#SET MIDI_INPUT_PORT_PARAMETER 0 16 NAME='Percussion-Cowbell'
+#SET MIDI_INPUT_PORT_PARAMETER 0 16 JACK_BINDINGS=NONE
+#SET MIDI_INPUT_PORT_PARAMETER 0 17 NAME='SD-funk-NDK'
+#SET MIDI_INPUT_PORT_PARAMETER 0 17 JACK_BINDINGS=NONE
+#SET MIDI_INPUT_PORT_PARAMETER 0 18 NAME='Toms-Rock-NDK'
+#SET MIDI_INPUT_PORT_PARAMETER 0 18 JACK_BINDINGS=NONE
+
+
+
+CREATE AUDIO_OUTPUT_DEVICE JACK ACTIVE=true CHANNELS=36 SAMPLERATE=48000 NAME='LinuxSampler0'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 0 NAME='1_DanDean-Bassguitar1'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 0 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 1 NAME='1_DanDean-Bassguitar2'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 1 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 2 NAME='1_DanDean-Bassguitar3'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 2 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 3 NAME='1_Grand-Piano'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 3 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 4 NAME='1_FCH-Trumpet1'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 4 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 5 NAME='1_FCH-Trumpet2'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 5 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 6 NAME='1_FCH-Trumpet3'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 6 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 7 NAME='1_FCH-Trumpet4'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 7 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 8 NAME='1_FCH-Flugelhorn1'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 8 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 9 NAME='1_FCH-Flugelhorn2'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 9 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 10 NAME='1_FCH-PiccoloTrumpet1'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 10 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 11 NAME='1_FCH-PiccoloTrumpet2'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 11 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 12 NAME='1_FCH-Trombone1'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 12 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 13 NAME='1_FCH-Trombone2'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 13 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 14 NAME='1_FCH-Trombone3'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 14 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 15 NAME='1_FCH-Trombone4'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 15 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 16 NAME='1_FCH-TenorSax1'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 16 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 17 NAME='1_FCH-TenorSax2'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 17 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 18 NAME='1_FCH-AltoSax1'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 18 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 19 NAME='1_FCH-AltoSax2'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 19 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 20 NAME='1_FCH-BariSax1'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 20 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 21 NAME='1_FCH-BariSax2'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 21 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 22 NAME='1_FCH-SopranoSax-solo1'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 22 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 23 NAME='1_FCH-SopranoSax-solo2'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 23 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 24 NAME='1_FCH-Combi-ASax-Tpt1'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 24 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 25 NAME='1_FCH-Combi-ASax-Tpt2'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 25 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 26 NAME='1_FCH-Combi-Tpt-Tb1'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 26 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 27 NAME='1_FCH-Combi-Tpt-Tb2'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 27 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 28 NAME='1_FCH-FrenchHorn1'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 28 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 29 NAME='1_FCH-FrenchHorn2'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 29 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 30 NAME='1_HH13-13UFIP_Bionic_hihat-mwh-NDK'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 30 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 31 NAME='1_NDK-Cymbals'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 31 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 32 NAME='1_KD-20_Punch-NDK'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 32 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 33 NAME='1_Percussion-Cowbell'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 33 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 34 NAME='1_SD-funk-NDK'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 34 JACK_BINDINGS=NONE
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 35 NAME='1_Toms-Rock-NDK'
+SET AUDIO_OUTPUT_CHANNEL_PARAMETER 0 35 JACK_BINDINGS=NONE
+
+
+
+
+ADD MIDI_INSTRUMENT_MAP 'DanDean-Bassguitar'
+MAP MIDI_INSTRUMENT NON_MODAL 0 0 0 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Acoustic\x20Bass\x20PzM.gig' 0 1.0 ON_DEMAND_HOLD 'Acoustic Bass PzM'
+MAP MIDI_INSTRUMENT NON_MODAL 0 1 0 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Acoustic\x20Bass\x20PzSt.gig' 0 1.0 ON_DEMAND_HOLD 'Acoustic Bass PzSt'
+MAP MIDI_INSTRUMENT NON_MODAL 0 2 0 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Alembic\x20Spoiler\x20Bass.gig' 4 1.0 ON_DEMAND_HOLD 'Alembic FF'
+MAP MIDI_INSTRUMENT NON_MODAL 0 2 1 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Alembic\x20Spoiler\x20Bass.gig' 5 1.0 ON_DEMAND_HOLD 'Alembic FH'
+MAP MIDI_INSTRUMENT NON_MODAL 0 2 2 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Alembic\x20Spoiler\x20Bass.gig' 1 1.0 ON_DEMAND_HOLD 'Alembic PF'
+MAP MIDI_INSTRUMENT NON_MODAL 0 2 3 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Alembic\x20Spoiler\x20Bass.gig' 2 1.0 ON_DEMAND_HOLD 'Alembic PH'
+MAP MIDI_INSTRUMENT NON_MODAL 0 2 4 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Alembic\x20Spoiler\x20Bass.gig' 3 1.0 ON_DEMAND_HOLD 'Alembic PM'
+MAP MIDI_INSTRUMENT NON_MODAL 0 2 5 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Alembic\x20Spoiler\x20Bass.gig' 6 1.0 ON_DEMAND_HOLD 'Alembic Pop'
+MAP MIDI_INSTRUMENT NON_MODAL 0 2 6 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Alembic\x20Spoiler\x20Bass.gig' 7 1.0 ON_DEMAND_HOLD 'Alembic Slap'
+MAP MIDI_INSTRUMENT NON_MODAL 0 2 7 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Alembic\x20Spoiler\x20Bass.gig' 0 1.0 ON_DEMAND_HOLD 'Alembic Spoiler Bass Keyswitch'
+MAP MIDI_INSTRUMENT NON_MODAL 0 3 0 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Alembic\x205\x20String\x20FB\x20AMP.gig' 0 1.0 ON_DEMAND_HOLD 'Alembic/5 FB Amp'
+MAP MIDI_INSTRUMENT NON_MODAL 0 4 0 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Fender\x20Jazz\x20Bass.gig' 3 1.0 ON_DEMAND_HOLD 'Fender Jazz FB'
+MAP MIDI_INSTRUMENT NON_MODAL 0 4 1 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Fender\x20Jazz\x20Bass.gig' 4 1.0 ON_DEMAND_HOLD 'Fender Jazz FH'
+MAP MIDI_INSTRUMENT NON_MODAL 0 4 2 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Fender\x20Jazz\x20Bass.gig' 1 1.0 ON_DEMAND_HOLD 'Fender Jazz PB'
+MAP MIDI_INSTRUMENT NON_MODAL 0 4 3 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Fender\x20Jazz\x20Bass.gig' 2 1.0 ON_DEMAND_HOLD 'Fender Jazz PH'
+MAP MIDI_INSTRUMENT NON_MODAL 0 5 0 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Fender\x20Precision\x20Bass.gig' 3 1.0 ON_DEMAND_HOLD 'Fender Precision - F'
+MAP MIDI_INSTRUMENT NON_MODAL 0 5 1 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Fender\x20Precision\x20Bass.gig' 4 1.0 ON_DEMAND_HOLD 'Fender Precision - FA'
+MAP MIDI_INSTRUMENT NON_MODAL 0 5 2 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Fender\x20Precision\x20Bass.gig' 1 1.0 ON_DEMAND_HOLD 'Fender Precision - P'
+MAP MIDI_INSTRUMENT NON_MODAL 0 5 3 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Fender\x20Precision\x20Bass.gig' 2 1.0 ON_DEMAND_HOLD 'Fender Precision - PA'
+MAP MIDI_INSTRUMENT NON_MODAL 0 5 4 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Fender\x20Precision\x20Bass.gig' 0 1.0 ON_DEMAND_HOLD 'Fender Precision Keyswitch'
+MAP MIDI_INSTRUMENT NON_MODAL 0 6 0 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Toucan\x20Fretless.gig' 4 1.0 ON_DEMAND_HOLD 'Fretless FF'
+MAP MIDI_INSTRUMENT NON_MODAL 0 6 1 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Toucan\x20Fretless.gig' 5 1.0 ON_DEMAND_HOLD 'Fretless FH'
+MAP MIDI_INSTRUMENT NON_MODAL 0 6 2 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Toucan\x20Fretless.gig' 1 1.0 ON_DEMAND_HOLD 'Fretless PF'
+MAP MIDI_INSTRUMENT NON_MODAL 0 6 3 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Toucan\x20Fretless.gig' 2 1.0 ON_DEMAND_HOLD 'Fretless PH'
+MAP MIDI_INSTRUMENT NON_MODAL 0 6 4 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Toucan\x20Fretless.gig' 3 1.0 ON_DEMAND_HOLD 'Fretless PM'
+MAP MIDI_INSTRUMENT NON_MODAL 0 6 5 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Toucan\x20Fretless.gig' 6 1.0 ON_DEMAND_HOLD 'Fretless Pop'
+MAP MIDI_INSTRUMENT NON_MODAL 0 6 6 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Toucan\x20Fretless.gig' 7 1.0 ON_DEMAND_HOLD 'Fretless Slap'
+MAP MIDI_INSTRUMENT NON_MODAL 0 6 7 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Toucan\x20Fretless.gig' 0 1.0 ON_DEMAND_HOLD 'Toucan Fretless Keyswitch'
+MAP MIDI_INSTRUMENT NON_MODAL 0 7 0 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Gibson\x20T-bird\x20Bass.gig' 6 1.0 ON_DEMAND_HOLD 'Gibson T-bird FA'
+MAP MIDI_INSTRUMENT NON_MODAL 0 7 1 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Gibson\x20T-bird\x20Bass.gig' 5 1.0 ON_DEMAND_HOLD 'Gibson T-bird FH'
+MAP MIDI_INSTRUMENT NON_MODAL 0 7 2 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Gibson\x20T-bird\x20Bass.gig' 4 1.0 ON_DEMAND_HOLD 'Gibson T-bird PA'
+MAP MIDI_INSTRUMENT NON_MODAL 0 7 3 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Gibson\x20T-bird\x20Bass.gig' 3 1.0 ON_DEMAND_HOLD 'Gibson T-bird PB'
+MAP MIDI_INSTRUMENT NON_MODAL 0 7 4 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Gibson\x20T-bird\x20Bass.gig' 1 1.0 ON_DEMAND_HOLD 'Gibson T-bird PF'
+MAP MIDI_INSTRUMENT NON_MODAL 0 7 5 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Gibson\x20T-bird\x20Bass.gig' 2 1.0 ON_DEMAND_HOLD 'Gibson T-bird PH'
+MAP MIDI_INSTRUMENT NON_MODAL 0 7 6 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Gibson\x20T-bird\x20Bass.gig' 0 1.0 ON_DEMAND_HOLD 'Gibson Thunderbird Keyswitch'
+MAP MIDI_INSTRUMENT NON_MODAL 0 8 0 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Guild\x20Ashbory\x20F.gig' 0 1.0 ON_DEMAND_HOLD 'Guild Ashbory'
+MAP MIDI_INSTRUMENT NON_MODAL 0 9 0 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Hofner\x20Violin\x20Bass.gig' 2 1.0 ON_DEMAND_HOLD 'Hofner Violin Bass FB*S'
+MAP MIDI_INSTRUMENT NON_MODAL 0 9 1 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Hofner\x20Violin\x20Bass.gig' 1 1.0 ON_DEMAND_HOLD 'Hofner Violin Bass PA'
+MAP MIDI_INSTRUMENT NON_MODAL 0 9 2 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Hofner\x20Violin\x20Bass.gig' 0 1.0 ON_DEMAND_HOLD 'Hofner Violin Bass Keyswitch'
+MAP MIDI_INSTRUMENT NON_MODAL 0 10 0 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Hohner\x20FA.gig' 0 1.0 ON_DEMAND_HOLD 'Hohner Fretless FA'
+MAP MIDI_INSTRUMENT NON_MODAL 0 11 0 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Guild\x20Pilot\x20-\x205\x20String.gig' 4 1.0 ON_DEMAND_HOLD 'Pilot/5 FF'
+MAP MIDI_INSTRUMENT NON_MODAL 0 11 1 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Guild\x20Pilot\x20-\x205\x20String.gig' 5 1.0 ON_DEMAND_HOLD 'Pilot/5 FH'
+MAP MIDI_INSTRUMENT NON_MODAL 0 11 2 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Guild\x20Pilot\x20-\x205\x20String.gig' 1 1.0 ON_DEMAND_HOLD 'Pilot/5 PF'
+MAP MIDI_INSTRUMENT NON_MODAL 0 11 3 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Guild\x20Pilot\x20-\x205\x20String.gig' 2 1.0 ON_DEMAND_HOLD 'Pilot/5 PH'
+MAP MIDI_INSTRUMENT NON_MODAL 0 11 4 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Guild\x20Pilot\x20-\x205\x20String.gig' 3 1.0 ON_DEMAND_HOLD 'Pilot/5 PM'
+MAP MIDI_INSTRUMENT NON_MODAL 0 11 5 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Guild\x20Pilot\x20-\x205\x20String.gig' 6 1.0 ON_DEMAND_HOLD 'Pilot/5 Pop'
+MAP MIDI_INSTRUMENT NON_MODAL 0 11 6 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Guild\x20Pilot\x20-\x205\x20String.gig' 7 1.0 ON_DEMAND_HOLD 'Pilot/5 Slap'
+MAP MIDI_INSTRUMENT NON_MODAL 0 11 7 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Guild\x20Pilot\x20-\x205\x20String.gig' 0 1.0 ON_DEMAND_HOLD 'Guild Pilot Keyswitch'
+MAP MIDI_INSTRUMENT NON_MODAL 0 12 0 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Rickenbacker\x204001.gig' 2 1.0 ON_DEMAND_HOLD 'Rickenbacker 4001 - PA'
+MAP MIDI_INSTRUMENT NON_MODAL 0 12 1 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Rickenbacker\x204001.gig' 1 1.0 ON_DEMAND_HOLD 'Rickenbacker 4001 - PB'
+MAP MIDI_INSTRUMENT NON_MODAL 0 12 2 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Rickenbacker\x204001.gig' 3 1.0 ON_DEMAND_HOLD 'Rickenbacker 4001 FB'
+MAP MIDI_INSTRUMENT NON_MODAL 0 12 3 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Rickenbacker\x204001.gig' 4 1.0 ON_DEMAND_HOLD 'Rickenbacker 4001 FF/A'
+MAP MIDI_INSTRUMENT NON_MODAL 0 12 4 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Rickenbacker\x204001.gig' 5 1.0 ON_DEMAND_HOLD 'Rickenbacker 4001 Hard'
+MAP MIDI_INSTRUMENT NON_MODAL 0 12 5 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Rickenbacker\x204001.gig' 0 1.0 ON_DEMAND_HOLD 'Rickenbacker 4001 Keyswitch'
+MAP MIDI_INSTRUMENT NON_MODAL 0 13 0 GIG '/home/derick/linuxaudio/laudata_unp/DanDean_Bass/Washburn\x20AB-20\x20F.gig' 0 1.0 ON_DEMAND_HOLD 'Washburn AB 20 - F'
+ADD MIDI_INSTRUMENT_MAP 'FCH-AltoSax'
+MAP MIDI_INSTRUMENT NON_MODAL 1 0 0 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Alto\x20Sax\x20Solo.gig' 0 1.0 ON_DEMAND_HOLD 'Alto Sax Solo'
+MAP MIDI_INSTRUMENT NON_MODAL 1 0 1 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Alto\x20Sax\x20Solo.gig' 5 1.0 ON_DEMAND_HOLD 'Alto Sax Solo FPSwell'
+MAP MIDI_INSTRUMENT NON_MODAL 1 0 2 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Alto\x20Sax\x20Solo.gig' 2 1.0 ON_DEMAND_HOLD 'Alto Sax Solo Mellow'
+MAP MIDI_INSTRUMENT NON_MODAL 1 0 3 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Alto\x20Sax\x20Solo.gig' 3 1.0 ON_DEMAND_HOLD 'Alto Sax Solo Staccato'
+MAP MIDI_INSTRUMENT NON_MODAL 1 0 4 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Alto\x20Sax\x20Solo.gig' 4 1.0 ON_DEMAND_HOLD 'Alto Sax Solo Vibrato'
+MAP MIDI_INSTRUMENT NON_MODAL 1 0 5 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Alto\x20Sax\x20Solo.gig' 1 1.0 ON_DEMAND_HOLD 'Alto Sax Duet Legato'
+MAP MIDI_INSTRUMENT NON_MODAL 1 0 6 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Alto\x20Sax\x20Solo.gig' 6 1.0 ON_DEMAND_HOLD 'Alto Sax KeySwitch'
+MAP MIDI_INSTRUMENT NON_MODAL 1 1 0 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Alto\x20Sax\x20Section.gig' 0 1.0 ON_DEMAND_HOLD 'Alto Sax Section'
+MAP MIDI_INSTRUMENT NON_MODAL 1 1 1 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Alto\x20Sax\x20Section.gig' 6 1.0 ON_DEMAND_HOLD 'Alto Sax Section Falls'
+MAP MIDI_INSTRUMENT NON_MODAL 1 1 2 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Alto\x20Sax\x20Section.gig' 5 1.0 ON_DEMAND_HOLD 'Alto Sax Section FPSwell Diminuendo'
+MAP MIDI_INSTRUMENT NON_MODAL 1 1 3 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Alto\x20Sax\x20Section.gig' 4 1.0 ON_DEMAND_HOLD 'Alto Sax Section FPSwell Long'
+MAP MIDI_INSTRUMENT NON_MODAL 1 1 4 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Alto\x20Sax\x20Section.gig' 3 1.0 ON_DEMAND_HOLD 'Alto Sax Section FPSwell Short'
+MAP MIDI_INSTRUMENT NON_MODAL 1 1 5 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Alto\x20Sax\x20Section.gig' 2 1.0 ON_DEMAND_HOLD 'Alto Sax Section Staccato'
+MAP MIDI_INSTRUMENT NON_MODAL 1 1 6 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Alto\x20Sax\x20Section.gig' 7 1.0 ON_DEMAND_HOLD 'Alto Sax Section KeySwitch'
+ADD MIDI_INSTRUMENT_MAP 'FCH-BariSax'
+MAP MIDI_INSTRUMENT NON_MODAL 2 0 0 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/BariSax\x20Solo.gig' 0 1.0 ON_DEMAND_HOLD 'BariSax Solo '
+MAP MIDI_INSTRUMENT NON_MODAL 2 0 1 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/BariSax\x20Solo.gig' 2 1.0 ON_DEMAND_HOLD 'BariSax Solo Bend Up'
+MAP MIDI_INSTRUMENT NON_MODAL 2 0 2 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/BariSax\x20Solo.gig' 1 1.0 ON_DEMAND_HOLD 'BariSax Solo Staccato'
+MAP MIDI_INSTRUMENT NON_MODAL 2 0 3 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/BariSax\x20Solo.gig' 3 1.0 ON_DEMAND_HOLD 'Bari Sax Keyswitch'
+MAP MIDI_INSTRUMENT NON_MODAL 2 1 0 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Bari\x20Sax\x20Section.gig' 0 1.0 ON_DEMAND_HOLD 'BariSax Section '
+MAP MIDI_INSTRUMENT NON_MODAL 2 1 1 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Bari\x20Sax\x20Section.gig' 2 1.0 ON_DEMAND_HOLD 'BariSax Section Bend Up'
+MAP MIDI_INSTRUMENT NON_MODAL 2 1 2 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Bari\x20Sax\x20Section.gig' 1 1.0 ON_DEMAND_HOLD 'BariSax Section Staccato'
+MAP MIDI_INSTRUMENT NON_MODAL 2 1 3 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Bari\x20Sax\x20Section.gig' 3 1.0 ON_DEMAND_HOLD 'BariSax Section KeySw'
+ADD MIDI_INSTRUMENT_MAP 'FCH-Combi-ASax-Tpt'
+MAP MIDI_INSTRUMENT NON_MODAL 3 0 0 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Combinations.gig' 0 1.0 ON_DEMAND_HOLD 'ASax Tpt FPSwell'
+MAP MIDI_INSTRUMENT NON_MODAL 3 0 1 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Combinations.gig' 3 1.0 ON_DEMAND_HOLD 'ASax Tpt Tb FPSwell'
+MAP MIDI_INSTRUMENT NON_MODAL 3 0 2 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Combinations.gig' 4 1.0 ON_DEMAND_HOLD 'ASax Tpt Tb Staccato'
+ADD MIDI_INSTRUMENT_MAP 'FCH-Combi-Tpt-Tb'
+MAP MIDI_INSTRUMENT NON_MODAL 4 0 0 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Combinations.gig' 5 1.0 ON_DEMAND_HOLD 'Tpt Tb Fall Long'
+MAP MIDI_INSTRUMENT NON_MODAL 4 0 1 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Combinations.gig' 6 1.0 ON_DEMAND_HOLD 'Tpt Tb Fall Medium'
+MAP MIDI_INSTRUMENT NON_MODAL 4 0 2 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Combinations.gig' 7 1.0 ON_DEMAND_HOLD 'Tpt Tb Fall Short'
+MAP MIDI_INSTRUMENT NON_MODAL 4 0 3 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Combinations.gig' 1 1.0 ON_DEMAND_HOLD 'Tpt Tb FPSwell'
+MAP MIDI_INSTRUMENT NON_MODAL 4 0 4 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Combinations.gig' 2 1.0 ON_DEMAND_HOLD 'Tpt Tb Staccato'
+ADD MIDI_INSTRUMENT_MAP 'FCH-Flugelhorn'
+MAP MIDI_INSTRUMENT NON_MODAL 5 0 0 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Flugelhorn.gig' 0 1.0 ON_DEMAND_HOLD 'Flugel Solo No Vibrato'
+MAP MIDI_INSTRUMENT NON_MODAL 5 0 1 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Flugelhorn.gig' 1 1.0 ON_DEMAND_HOLD 'Flugel Solo Vibrato'
+MAP MIDI_INSTRUMENT NON_MODAL 5 0 2 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Flugelhorn.gig' 2 1.0 ON_DEMAND_HOLD 'Flugel Duet Legato'
+MAP MIDI_INSTRUMENT NON_MODAL 5 0 3 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Flugelhorn.gig' 3 1.0 ON_DEMAND_HOLD 'Flugel KeySwitch'
+MAP MIDI_INSTRUMENT NON_MODAL 5 1 0 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Flugelhorn\x20Section.gig' 0 1.0 ON_DEMAND_HOLD 'Flugel Section No Vibrato'
+MAP MIDI_INSTRUMENT NON_MODAL 5 1 1 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Flugelhorn\x20Section.gig' 1 1.0 ON_DEMAND_HOLD 'Flugel Section Vibrato'
+MAP MIDI_INSTRUMENT NON_MODAL 5 1 2 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Flugelhorn\x20Section.gig' 2 1.0 ON_DEMAND_HOLD 'Flugelhorn Section KeySwitchk'
+ADD MIDI_INSTRUMENT_MAP 'FCH-FrenchHorn'
+MAP MIDI_INSTRUMENT NON_MODAL 6 0 0 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/French\x20Horn.gig' 0 1.0 ON_DEMAND_HOLD 'French Horn Solo No Vibrato'
+MAP MIDI_INSTRUMENT NON_MODAL 6 0 1 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/French\x20Horn.gig' 1 1.0 ON_DEMAND_HOLD 'French Horn Solo Vibrato'
+MAP MIDI_INSTRUMENT NON_MODAL 6 0 2 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/French\x20Horn.gig' 3 1.0 ON_DEMAND_HOLD 'French Horn Solo Rips'
+MAP MIDI_INSTRUMENT NON_MODAL 6 0 3 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/French\x20Horn.gig' 2 1.0 ON_DEMAND_HOLD 'French Horn Solo Staccato'
+MAP MIDI_INSTRUMENT NON_MODAL 6 0 4 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/French\x20Horn.gig' 4 1.0 ON_DEMAND_HOLD 'French Horn Duet Legato'
+MAP MIDI_INSTRUMENT NON_MODAL 6 0 5 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/French\x20Horn.gig' 5 1.0 ON_DEMAND_HOLD 'French Horn KeySwitch'
+ADD MIDI_INSTRUMENT_MAP 'FCH-PiccoloTrumpet'
+MAP MIDI_INSTRUMENT NON_MODAL 7 0 0 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Piccolo\x20Trumpet.gig' 0 1.0 ON_DEMAND_HOLD 'Piccolo Trumpet Solo'
+MAP MIDI_INSTRUMENT NON_MODAL 7 1 0 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Piccolo\x20Trumpet\x20Section.gig' 0 1.0 ON_DEMAND_HOLD 'Piccolo Trumpet Section'
+ADD MIDI_INSTRUMENT_MAP 'FCH-SopranoSax-solo'
+MAP MIDI_INSTRUMENT NON_MODAL 8 0 0 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Soprano\x20Sax.gig' 0 1.0 ON_DEMAND_HOLD 'Soprano Sax Solo No Vibrato'
+MAP MIDI_INSTRUMENT NON_MODAL 8 0 1 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Soprano\x20Sax.gig' 1 1.0 ON_DEMAND_HOLD 'Soprano Sax Solo Vibrato'
+MAP MIDI_INSTRUMENT NON_MODAL 8 0 2 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Soprano\x20Sax.gig' 2 1.0 ON_DEMAND_HOLD 'Soprano Sax KeySwitch'
+ADD MIDI_INSTRUMENT_MAP 'FCH-TenorSax'
+MAP MIDI_INSTRUMENT NON_MODAL 9 0 0 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Tenor\x20Sax.gig' 0 1.0 ON_DEMAND_HOLD 'Tenor Sax Solo No Vibrato'
+MAP MIDI_INSTRUMENT NON_MODAL 9 0 1 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Tenor\x20Sax.gig' 1 1.0 ON_DEMAND_HOLD 'Tenor Sax Solo Vibrato'
+MAP MIDI_INSTRUMENT NON_MODAL 9 0 2 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Tenor\x20Sax.gig' 2 1.0 ON_DEMAND_HOLD 'Tenor Sax Solo Staccato'
+MAP MIDI_INSTRUMENT NON_MODAL 9 0 3 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Tenor\x20Sax.gig' 3 1.0 ON_DEMAND_HOLD 'Tenor Sax Duet'
+MAP MIDI_INSTRUMENT NON_MODAL 9 0 4 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Tenor\x20Sax.gig' 4 1.0 ON_DEMAND_HOLD 'Tenor Sax KeySwitch'
+MAP MIDI_INSTRUMENT NON_MODAL 9 1 0 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Tenor\x20Sax\x20Section.gig' 0 1.0 ON_DEMAND_HOLD 'Tenor Sax Section'
+MAP MIDI_INSTRUMENT NON_MODAL 9 1 1 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Tenor\x20Sax\x20Section.gig' 1 1.0 ON_DEMAND_HOLD 'Tenor Sax Section Mellow'
+MAP MIDI_INSTRUMENT NON_MODAL 9 1 2 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Tenor\x20Sax\x20Section.gig' 2 1.0 ON_DEMAND_HOLD 'Tenor Sax Section Staccato'
+MAP MIDI_INSTRUMENT NON_MODAL 9 1 3 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Tenor\x20Sax\x20Section.gig' 3 1.0 ON_DEMAND_HOLD 'Tenor Sax Section KeySwitch'
+ADD MIDI_INSTRUMENT_MAP 'FCH-Trombone'
+MAP MIDI_INSTRUMENT NON_MODAL 10 0 0 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trombone.gig' 0 1.0 ON_DEMAND_HOLD 'Trombone Solo No Vibrato'
+MAP MIDI_INSTRUMENT NON_MODAL 10 0 1 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trombone.gig' 1 1.0 ON_DEMAND_HOLD 'Trombone Solo Vibrato'
+MAP MIDI_INSTRUMENT NON_MODAL 10 0 2 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trombone.gig' 2 1.0 ON_DEMAND_HOLD 'Trombone Solo Staccato'
+MAP MIDI_INSTRUMENT NON_MODAL 10 0 3 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trombone.gig' 3 1.0 ON_DEMAND_HOLD 'Trombone Solo Mute'
+MAP MIDI_INSTRUMENT NON_MODAL 10 0 4 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trombone.gig' 7 1.0 ON_DEMAND_HOLD 'Trombone Solo FPSwell Diminuendo'
+MAP MIDI_INSTRUMENT NON_MODAL 10 0 5 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trombone.gig' 6 1.0 ON_DEMAND_HOLD 'Trombone Solo FPSwell'
+MAP MIDI_INSTRUMENT NON_MODAL 10 0 6 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trombone.gig' 5 1.0 ON_DEMAND_HOLD 'Trombone Solo Fall'
+MAP MIDI_INSTRUMENT NON_MODAL 10 0 7 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trombone.gig' 4 1.0 ON_DEMAND_HOLD 'Trombone Solo Cup Mute'
+MAP MIDI_INSTRUMENT NON_MODAL 10 0 8 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trombone.gig' 8 1.0 ON_DEMAND_HOLD 'Trombone Duet'
+MAP MIDI_INSTRUMENT NON_MODAL 10 0 9 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trombone.gig' 9 1.0 ON_DEMAND_HOLD 'Tb KeySw'
+MAP MIDI_INSTRUMENT NON_MODAL 10 1 0 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trombone\x20Section.gig' 0 1.0 ON_DEMAND_HOLD 'Trombone Section'
+MAP MIDI_INSTRUMENT NON_MODAL 10 1 1 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trombone\x20Section.gig' 3 1.0 ON_DEMAND_HOLD 'Trombone Section Cup Mute'
+MAP MIDI_INSTRUMENT NON_MODAL 10 1 2 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trombone\x20Section.gig' 5 1.0 ON_DEMAND_HOLD 'Trombone Section Fall Medium'
+MAP MIDI_INSTRUMENT NON_MODAL 10 1 3 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trombone\x20Section.gig' 4 1.0 ON_DEMAND_HOLD 'Trombone Section Fall Short'
+MAP MIDI_INSTRUMENT NON_MODAL 10 1 4 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trombone\x20Section.gig' 6 1.0 ON_DEMAND_HOLD 'Trombone Section FPSwell'
+MAP MIDI_INSTRUMENT NON_MODAL 10 1 5 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trombone\x20Section.gig' 7 1.0 ON_DEMAND_HOLD 'Trombone Section FPSwell Diminuendo'
+MAP MIDI_INSTRUMENT NON_MODAL 10 1 6 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trombone\x20Section.gig' 2 1.0 ON_DEMAND_HOLD 'Trombone Section Mute'
+MAP MIDI_INSTRUMENT NON_MODAL 10 1 7 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trombone\x20Section.gig' 1 1.0 ON_DEMAND_HOLD 'Trombone Section Staccato'
+MAP MIDI_INSTRUMENT NON_MODAL 10 1 8 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trombone\x20Section.gig' 8 1.0 ON_DEMAND_HOLD 'Trombone Section KeySwitch'
+ADD MIDI_INSTRUMENT_MAP 'FCH-Trumpet'
+MAP MIDI_INSTRUMENT NON_MODAL 11 0 0 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Open.gig' 0 1.0 ON_DEMAND_HOLD 'Trumpet Open '
+MAP MIDI_INSTRUMENT NON_MODAL 11 0 1 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Open.gig' 1 1.0 ON_DEMAND_HOLD 'Trumpet Open Attack'
+MAP MIDI_INSTRUMENT NON_MODAL 11 0 2 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Open.gig' 9 1.0 ON_DEMAND_HOLD 'Trumpet Open Doit'
+MAP MIDI_INSTRUMENT NON_MODAL 11 0 3 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Open.gig' 4 1.0 ON_DEMAND_HOLD 'Trumpet Open Fall'
+MAP MIDI_INSTRUMENT NON_MODAL 11 0 4 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Open.gig' 8 1.0 ON_DEMAND_HOLD 'Trumpet Open Flutter'
+MAP MIDI_INSTRUMENT NON_MODAL 11 0 5 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Open.gig' 5 1.0 ON_DEMAND_HOLD 'Trumpet Open Lazy'
+MAP MIDI_INSTRUMENT NON_MODAL 11 0 6 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Open.gig' 6 1.0 ON_DEMAND_HOLD 'Trumpet Open Lip Trill'
+MAP MIDI_INSTRUMENT NON_MODAL 11 0 7 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Open.gig' 7 1.0 ON_DEMAND_HOLD 'Trumpet Open Punch'
+MAP MIDI_INSTRUMENT NON_MODAL 11 0 8 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Open.gig' 3 1.0 ON_DEMAND_HOLD 'Trumpet Open Short'
+MAP MIDI_INSTRUMENT NON_MODAL 11 0 9 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Open.gig' 2 1.0 ON_DEMAND_HOLD 'Trumpet Open Stabs'
+MAP MIDI_INSTRUMENT NON_MODAL 11 0 10 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Open.gig' 10 1.0 ON_DEMAND_HOLD 'Trumpet Open KeySwitch 1'
+MAP MIDI_INSTRUMENT NON_MODAL 11 0 11 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Open.gig' 11 1.0 ON_DEMAND_HOLD 'Trumpet Open KeySwitch 2'
+MAP MIDI_INSTRUMENT NON_MODAL 11 1 0 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Straight\x20Mute.gig' 0 1.0 ON_DEMAND_HOLD 'Trumpet Straight Mute Closed'
+MAP MIDI_INSTRUMENT NON_MODAL 11 1 1 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Straight\x20Mute.gig' 6 1.0 ON_DEMAND_HOLD 'Trumpet Straight Mute Duet'
+MAP MIDI_INSTRUMENT NON_MODAL 11 1 2 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Straight\x20Mute.gig' 5 1.0 ON_DEMAND_HOLD 'Trumpet Straight Mute FPSwell'
+MAP MIDI_INSTRUMENT NON_MODAL 11 1 3 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Straight\x20Mute.gig' 1 1.0 ON_DEMAND_HOLD 'Trumpet Straight Mute No Vibrato'
+MAP MIDI_INSTRUMENT NON_MODAL 11 1 4 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Straight\x20Mute.gig' 3 1.0 ON_DEMAND_HOLD 'Trumpet Straight Mute Shakes'
+MAP MIDI_INSTRUMENT NON_MODAL 11 1 5 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Straight\x20Mute.gig' 4 1.0 ON_DEMAND_HOLD 'Trumpet Straight Mute Swell'
+MAP MIDI_INSTRUMENT NON_MODAL 11 1 6 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Straight\x20Mute.gig' 2 1.0 ON_DEMAND_HOLD 'Trumpet Straight Mute Vibrato'
+MAP MIDI_INSTRUMENT NON_MODAL 11 1 7 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Straight\x20Mute.gig' 7 1.0 ON_DEMAND_HOLD 'Trumpet Straight Mute KeySwitch'
+MAP MIDI_INSTRUMENT NON_MODAL 11 2 0 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Harmon\x20Mute.gig' 0 1.0 ON_DEMAND_HOLD 'Trumpet Harmon'
+MAP MIDI_INSTRUMENT NON_MODAL 11 2 1 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Harmon\x20Mute.gig' 1 1.0 ON_DEMAND_HOLD 'Trumpet Harmon Attack'
+MAP MIDI_INSTRUMENT NON_MODAL 11 2 2 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Harmon\x20Mute.gig' 9 1.0 ON_DEMAND_HOLD 'Trumpet Harmon Doit'
+MAP MIDI_INSTRUMENT NON_MODAL 11 2 3 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Harmon\x20Mute.gig' 5 1.0 ON_DEMAND_HOLD 'Trumpet Harmon Fall Long'
+MAP MIDI_INSTRUMENT NON_MODAL 11 2 4 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Harmon\x20Mute.gig' 4 1.0 ON_DEMAND_HOLD 'Trumpet Harmon Fall Short'
+MAP MIDI_INSTRUMENT NON_MODAL 11 2 5 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Harmon\x20Mute.gig' 6 1.0 ON_DEMAND_HOLD 'Trumpet Harmon Flutter'
+MAP MIDI_INSTRUMENT NON_MODAL 11 2 6 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Harmon\x20Mute.gig' 8 1.0 ON_DEMAND_HOLD 'Trumpet Harmon Lazy'
+MAP MIDI_INSTRUMENT NON_MODAL 11 2 7 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Harmon\x20Mute.gig' 7 1.0 ON_DEMAND_HOLD 'Trumpet Harmon Lip Trill'
+MAP MIDI_INSTRUMENT NON_MODAL 11 2 8 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Harmon\x20Mute.gig' 2 1.0 ON_DEMAND_HOLD 'Trumpet Harmon Open'
+MAP MIDI_INSTRUMENT NON_MODAL 11 2 9 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Harmon\x20Mute.gig' 3 1.0 ON_DEMAND_HOLD 'Trumpet Harmon Short'
+MAP MIDI_INSTRUMENT NON_MODAL 11 2 10 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Harmon\x20Mute.gig' 10 1.0 ON_DEMAND_HOLD 'Trumpet Harmon KeySwitch 1'
+MAP MIDI_INSTRUMENT NON_MODAL 11 2 11 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Harmon\x20Mute.gig' 11 1.0 ON_DEMAND_HOLD 'Trumpet Harmon KeySwitch 2'
+MAP MIDI_INSTRUMENT NON_MODAL 11 3 0 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Cup\x20Mute.gig' 0 1.0 ON_DEMAND_HOLD 'Trumpet Cup '
+MAP MIDI_INSTRUMENT NON_MODAL 11 3 1 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Cup\x20Mute.gig' 1 1.0 ON_DEMAND_HOLD 'Trumpet Cup Attack'
+MAP MIDI_INSTRUMENT NON_MODAL 11 3 2 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Cup\x20Mute.gig' 2 1.0 ON_DEMAND_HOLD 'Trumpet Cup Doit'
+MAP MIDI_INSTRUMENT NON_MODAL 11 3 3 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Cup\x20Mute.gig' 4 1.0 ON_DEMAND_HOLD 'Trumpet Cup Fall Long'
+MAP MIDI_INSTRUMENT NON_MODAL 11 3 4 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Cup\x20Mute.gig' 3 1.0 ON_DEMAND_HOLD 'Trumpet Cup Fall Short'
+MAP MIDI_INSTRUMENT NON_MODAL 11 3 5 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Cup\x20Mute.gig' 5 1.0 ON_DEMAND_HOLD 'Trumpet Cup Finger Trill'
+MAP MIDI_INSTRUMENT NON_MODAL 11 3 6 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Cup\x20Mute.gig' 6 1.0 ON_DEMAND_HOLD 'Trumpet Cup Flutter'
+MAP MIDI_INSTRUMENT NON_MODAL 11 3 7 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Cup\x20Mute.gig' 7 1.0 ON_DEMAND_HOLD 'Trumpet Cup Lazy'
+MAP MIDI_INSTRUMENT NON_MODAL 11 3 8 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Cup\x20Mute.gig' 8 1.0 ON_DEMAND_HOLD 'Trumpet Cup Lazy Short'
+MAP MIDI_INSTRUMENT NON_MODAL 11 3 9 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Cup\x20Mute.gig' 9 1.0 ON_DEMAND_HOLD 'Trumpet Cup Lip Trill'
+MAP MIDI_INSTRUMENT NON_MODAL 11 3 10 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Cup\x20Mute.gig' 10 1.0 ON_DEMAND_HOLD 'Trumpet Cup Stab'
+MAP MIDI_INSTRUMENT NON_MODAL 11 3 11 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Cup\x20Mute.gig' 11 1.0 ON_DEMAND_HOLD 'Trumpet Cup Mute KeySwitch 1'
+MAP MIDI_INSTRUMENT NON_MODAL 11 3 12 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Cup\x20Mute.gig' 12 1.0 ON_DEMAND_HOLD 'Trumpet Cup Mute KeySwitch 2'
+MAP MIDI_INSTRUMENT NON_MODAL 11 4 0 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Section.gig' 0 1.0 ON_DEMAND_HOLD 'Trumpet Section'
+MAP MIDI_INSTRUMENT NON_MODAL 11 4 1 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Section.gig' 7 1.0 ON_DEMAND_HOLD 'Trumpet Section Fall Long'
+MAP MIDI_INSTRUMENT NON_MODAL 11 4 2 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Section.gig' 6 1.0 ON_DEMAND_HOLD 'Trumpet Section Fall Medium'
+MAP MIDI_INSTRUMENT NON_MODAL 11 4 3 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Section.gig' 5 1.0 ON_DEMAND_HOLD 'Trumpet Section Fall Medium Short'
+MAP MIDI_INSTRUMENT NON_MODAL 11 4 4 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Section.gig' 4 1.0 ON_DEMAND_HOLD 'Trumpet Section Fall Short'
+MAP MIDI_INSTRUMENT NON_MODAL 11 4 5 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Section.gig' 10 1.0 ON_DEMAND_HOLD 'Trumpet Section FPSwell'
+MAP MIDI_INSTRUMENT NON_MODAL 11 4 6 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Section.gig' 11 1.0 ON_DEMAND_HOLD 'Trumpet Section FPSwell Diminuendo'
+MAP MIDI_INSTRUMENT NON_MODAL 11 4 7 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Section.gig' 8 1.0 ON_DEMAND_HOLD 'Trumpet Section Glissando Fall'
+MAP MIDI_INSTRUMENT NON_MODAL 11 4 8 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Section.gig' 9 1.0 ON_DEMAND_HOLD 'Trumpet Section Glissando Up'
+MAP MIDI_INSTRUMENT NON_MODAL 11 4 9 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Section.gig' 1 1.0 ON_DEMAND_HOLD 'Trumpet Section Harmon Mute'
+MAP MIDI_INSTRUMENT NON_MODAL 11 4 10 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Section.gig' 3 1.0 ON_DEMAND_HOLD 'Trumpet Section Shake'
+MAP MIDI_INSTRUMENT NON_MODAL 11 4 11 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Section.gig' 2 1.0 ON_DEMAND_HOLD 'Trumpet Section Staccato'
+MAP MIDI_INSTRUMENT NON_MODAL 11 4 12 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Section.gig' 12 1.0 ON_DEMAND_HOLD 'Trumpet Section KeySwitch 1'
+MAP MIDI_INSTRUMENT NON_MODAL 11 4 13 GIG '/home/derick/linuxaudio/laudata_unp/First\x20Call\x20Horns/Trumpet\x20Section.gig' 13 1.0 ON_DEMAND_HOLD 'Trumpet Section KeySwitch 2'
+ADD MIDI_INSTRUMENT_MAP 'HH13-13UFIP_Bionic_hihat-mwh-NDK'
+MAP MIDI_INSTRUMENT NON_MODAL 12 0 0 GIG '/home/derick/linuxaudio/laudata_unp/NDKFunkkit/NDK-HH13-13_UFIP_Bionic_Series_hi-hat-mwh.gig' 0 1.0 ON_DEMAND_HOLD 'NDK HH13 - 13\" UFIP \'Bionic Series\''
+ADD MIDI_INSTRUMENT_MAP 'NDK-Cymbals'
+MAP MIDI_INSTRUMENT NON_MODAL 13 0 0 GIG '/home/derick/linuxaudio/laudata_unp/NDKFunkkit/NDK-All_Cymbals.gig' 0 1.0 ON_DEMAND_HOLD 'NDK Cymbals'
+ADD MIDI_INSTRUMENT_MAP 'KD-20_Punch-NDK'
+MAP MIDI_INSTRUMENT NON_MODAL 14 0 0 GIG '/home/derick/linuxaudio/laudata_unp/NDKFunkkit/NDK-KD-20_Punch.gig' 0 1.0 ON_DEMAND_HOLD 'NDK KD - Punch (punchy, studio tuning)'
+ADD MIDI_INSTRUMENT_MAP 'Percussion-Cowbell'
+MAP MIDI_INSTRUMENT NON_MODAL 15 0 0 GIG '/home/derick/linuxaudio/laudata_unp/NDKFunkkit/NDK-Percussion-Cowbell.gig' 0 1.0 ON_DEMAND_HOLD 'NDK Steel cow bell'
+ADD MIDI_INSTRUMENT_MAP 'SD-funk-NDK'
+MAP MIDI_INSTRUMENT NON_MODAL 16 0 0 GIG '/home/derick/linuxaudio/laudata_unp/NDKFunkkit/NDK-SD-funk.gig' 0 1.0 ON_DEMAND_HOLD 'NDK SD - Funk - Snare on (funk tuning)'
+ADD MIDI_INSTRUMENT_MAP 'Toms-Rock-NDK'
+MAP MIDI_INSTRUMENT NON_MODAL 17 0 0 GIG '/home/derick/linuxaudio/laudata_unp/NDKFunkkit/NDK-Toms-Rock.gig' 0 1.0 ON_DEMAND_HOLD 'NDK Toms - Rock - Snare on (rock/studio tuning)'
+ADD MIDI_INSTRUMENT_MAP 'Grand-Piano'
+MAP MIDI_INSTRUMENT NON_MODAL 18 0 0 GIG '/home/derick/linuxaudio/linuxsampler/piano/maestro_concert_grand_v2.gig' 2 1.0 ON_DEMAND_HOLD 'Maestro Conc. Grand B'
+MAP MIDI_INSTRUMENT NON_MODAL 18 0 1 GIG '/home/derick/linuxaudio/linuxsampler/piano/maestro_concert_grand_v2.gig' 0 1.0 ON_DEMAND_HOLD 'Maestro Concert Grand'
+MAP MIDI_INSTRUMENT NON_MODAL 18 0 2 GIG '/home/derick/linuxaudio/linuxsampler/piano/maestro_concert_grand_v2.gig' 3 1.0 ON_DEMAND_HOLD 'MCG B Sus + Release'
+MAP MIDI_INSTRUMENT NON_MODAL 18 0 3 GIG '/home/derick/linuxaudio/linuxsampler/piano/maestro_concert_grand_v2.gig' 1 1.0 ON_DEMAND_HOLD 'MCG Sustains + Releases'
+MAP MIDI_INSTRUMENT NON_MODAL 18 0 4 GIG '/home/derick/linuxaudio/linuxsampler/piano/maestro_concert_grand_v2.gig' 5 1.0 ON_DEMAND_HOLD 'mcg_key_release'
+MAP MIDI_INSTRUMENT NON_MODAL 18 0 5 GIG '/home/derick/linuxaudio/linuxsampler/piano/maestro_concert_grand_v2.gig' 6 1.0 ON_DEMAND_HOLD 'mcg_key_release only'
+MAP MIDI_INSTRUMENT NON_MODAL 18 0 6 GIG '/home/derick/linuxaudio/linuxsampler/piano/maestro_concert_grand_v2.gig' 4 1.0 ON_DEMAND_HOLD 'Effects'
+MAP MIDI_INSTRUMENT NON_MODAL 18 1 0 SFZ '/home/derick/linuxaudio/linuxsampler/piano/SalamanderGrandPianoV2_48khz24bit/SalamanderGrandPianoV2.sfz' 0 1.0 ON_DEMAND_HOLD 'SalamanderGrandPianoV2'
+
+
+#bas 1
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 0 0
+SET CHANNEL MIDI_INPUT_PORT 0 0
+SET CHANNEL MIDI_INPUT_CHANNEL 0 0
+LOAD ENGINE GIG 0
+SET CHANNEL VOLUME 0 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 0 0
+SET CHANNEL AUDIO_OUTPUT_DEVICE 0 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 0 0 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 0 1 0
+
+#bass2
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 1 0
+SET CHANNEL MIDI_INPUT_PORT 1 0
+SET CHANNEL MIDI_INPUT_CHANNEL 1 1
+LOAD ENGINE GIG 1
+SET CHANNEL VOLUME 0 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 1 0
+SET CHANNEL AUDIO_OUTPUT_DEVICE 1 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 1 0 1
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 1 1 1
+
+#bass3
+
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 2 0
+SET CHANNEL MIDI_INPUT_PORT 2 0
+SET CHANNEL MIDI_INPUT_CHANNEL 2 2
+LOAD ENGINE GIG 2
+SET CHANNEL VOLUME 0 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 2 0
+SET CHANNEL AUDIO_OUTPUT_DEVICE 2 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 2 0 2
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 2 1 2
+
+
+#piano
+
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 3 0
+SET CHANNEL MIDI_INPUT_PORT 3 1
+SET CHANNEL MIDI_INPUT_CHANNEL 3 0
+LOAD ENGINE GIG 3
+SET CHANNEL VOLUME 3 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 3 18
+SET CHANNEL AUDIO_OUTPUT_DEVICE 3 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 3 0 3
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 3 1 3
+
+
+
+#trumpet1
+
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 4 0
+SET CHANNEL MIDI_INPUT_PORT 4 2
+SET CHANNEL MIDI_INPUT_CHANNEL 4 0
+LOAD ENGINE GIG 4
+SET CHANNEL VOLUME 4 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 4 11
+SET CHANNEL AUDIO_OUTPUT_DEVICE 4 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 4 0 4
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 4 1 4
+
+#2
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 5 0
+SET CHANNEL MIDI_INPUT_PORT 5 2
+SET CHANNEL MIDI_INPUT_CHANNEL 5 1
+LOAD ENGINE GIG 5
+SET CHANNEL VOLUME 5 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 5 11
+SET CHANNEL AUDIO_OUTPUT_DEVICE 5 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 5 0 5
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 5 1 5
+
+#3
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 6 0
+SET CHANNEL MIDI_INPUT_PORT 6 2
+SET CHANNEL MIDI_INPUT_CHANNEL 6 2
+LOAD ENGINE GIG 6
+SET CHANNEL VOLUME 6 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 6 11
+SET CHANNEL AUDIO_OUTPUT_DEVICE 6 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 6 0 6
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 6 1 6
+
+#4
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 7 0
+SET CHANNEL MIDI_INPUT_PORT 7 2
+SET CHANNEL MIDI_INPUT_CHANNEL 7 3
+LOAD ENGINE GIG 7
+SET CHANNEL VOLUME 7 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 7 11
+SET CHANNEL AUDIO_OUTPUT_DEVICE 7 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 7 0 7
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 7 1 7
+
+#flugelhorn1
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 8 0
+SET CHANNEL MIDI_INPUT_PORT 8 3
+SET CHANNEL MIDI_INPUT_CHANNEL 8 0
+LOAD ENGINE GIG 8
+SET CHANNEL VOLUME 8 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 8 5
+SET CHANNEL AUDIO_OUTPUT_DEVICE 8 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 8 0 8
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 8 1 8
+
+#flugelhorn2
+
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 9 0
+SET CHANNEL MIDI_INPUT_PORT 9 3
+SET CHANNEL MIDI_INPUT_CHANNEL 9 1
+LOAD ENGINE GIG 9
+SET CHANNEL VOLUME 9 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 9 5
+SET CHANNEL AUDIO_OUTPUT_DEVICE 9 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 9 0 9
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 9 1 9
+
+#picollotrumpet1
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 10 0
+SET CHANNEL MIDI_INPUT_PORT 10 4
+SET CHANNEL MIDI_INPUT_CHANNEL 10 0
+LOAD ENGINE GIG 10
+SET CHANNEL VOLUME 10 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 10 7
+SET CHANNEL AUDIO_OUTPUT_DEVICE 10 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 10 0 10
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 10 1 10
+
+#picollotrumpet2
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 11 0
+SET CHANNEL MIDI_INPUT_PORT 11 4
+SET CHANNEL MIDI_INPUT_CHANNEL 11 1
+LOAD ENGINE GIG 11
+SET CHANNEL VOLUME 11 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 11 7
+SET CHANNEL AUDIO_OUTPUT_DEVICE 11 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 11 0 11
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 11 1 11
+
+#Trombone1
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 12 0
+SET CHANNEL MIDI_INPUT_PORT 12 5
+SET CHANNEL MIDI_INPUT_CHANNEL 12 0
+LOAD ENGINE GIG 12
+SET CHANNEL VOLUME 12 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 12 10
+SET CHANNEL AUDIO_OUTPUT_DEVICE 12 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 12 0 12
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 12 1 12
+
+#Trombone2
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 13 0
+SET CHANNEL MIDI_INPUT_PORT 13 5
+SET CHANNEL MIDI_INPUT_CHANNEL 13 1
+LOAD ENGINE GIG 13
+SET CHANNEL VOLUME 13 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 13 10
+SET CHANNEL AUDIO_OUTPUT_DEVICE 13 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 13 0 13
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 13 1 13
+
+#Trombone3
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 14 0
+SET CHANNEL MIDI_INPUT_PORT 14 5
+SET CHANNEL MIDI_INPUT_CHANNEL 14 2
+LOAD ENGINE GIG 14
+SET CHANNEL VOLUME 14 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 14 10
+SET CHANNEL AUDIO_OUTPUT_DEVICE 14 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 14 0 14
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 14 1 14
+
+#Trombone4
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 15 0
+SET CHANNEL MIDI_INPUT_PORT 15 5
+SET CHANNEL MIDI_INPUT_CHANNEL 15 3
+LOAD ENGINE GIG 15
+SET CHANNEL VOLUME 15 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 15 10
+SET CHANNEL AUDIO_OUTPUT_DEVICE 15 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 15 0 15
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 15 1 15
+
+#TenorSax1
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 16 0
+SET CHANNEL MIDI_INPUT_PORT 16 6
+SET CHANNEL MIDI_INPUT_CHANNEL 16 0
+LOAD ENGINE GIG 16
+SET CHANNEL VOLUME 16 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 16 9
+SET CHANNEL AUDIO_OUTPUT_DEVICE 16 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 16 0 16
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 16 1 16
+
+#TenorSax2
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 17 0
+SET CHANNEL MIDI_INPUT_PORT 17 6
+SET CHANNEL MIDI_INPUT_CHANNEL 17 1
+LOAD ENGINE GIG 17
+SET CHANNEL VOLUME 17 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 17 9
+SET CHANNEL AUDIO_OUTPUT_DEVICE 17 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 17 0 17
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 17 1 17
+
+#AltoSax1
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 18 0
+SET CHANNEL MIDI_INPUT_PORT 18 7
+SET CHANNEL MIDI_INPUT_CHANNEL 18 0
+LOAD ENGINE GIG 18
+SET CHANNEL VOLUME 18 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 18 1
+SET CHANNEL AUDIO_OUTPUT_DEVICE 18 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 18 0 18
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 18 1 18
+
+#AltoSax2
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 19 0
+SET CHANNEL MIDI_INPUT_PORT 19 7
+SET CHANNEL MIDI_INPUT_CHANNEL 19 1
+LOAD ENGINE GIG 19
+SET CHANNEL VOLUME 19 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 19 1
+SET CHANNEL AUDIO_OUTPUT_DEVICE 19 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 19 0 19
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 19 1 19
+
+#BariSax1
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 20 0
+SET CHANNEL MIDI_INPUT_PORT 20 8
+SET CHANNEL MIDI_INPUT_CHANNEL 20 0
+LOAD ENGINE GIG 20
+SET CHANNEL VOLUME 20 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 20 2
+SET CHANNEL AUDIO_OUTPUT_DEVICE 20 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 20 0 20
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 20 1 20
+
+#BariSax2
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 21 0
+SET CHANNEL MIDI_INPUT_PORT 21 8
+SET CHANNEL MIDI_INPUT_CHANNEL 21 1
+LOAD ENGINE GIG 21
+SET CHANNEL VOLUME 21 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 21 2
+SET CHANNEL AUDIO_OUTPUT_DEVICE 21 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 21 0 21
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 21 1 21
+
+
+#SopranoSax
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 22 0
+SET CHANNEL MIDI_INPUT_PORT 22 9
+SET CHANNEL MIDI_INPUT_CHANNEL 22 0
+LOAD ENGINE GIG 22
+SET CHANNEL VOLUME 22 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 22 8
+SET CHANNEL AUDIO_OUTPUT_DEVICE 22 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 22 0 22
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 22 1 22
+
+#SopranoSax2
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 23 0
+SET CHANNEL MIDI_INPUT_PORT 23 9
+SET CHANNEL MIDI_INPUT_CHANNEL 23 1
+LOAD ENGINE GIG 23
+SET CHANNEL VOLUME 23 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 23 8
+SET CHANNEL AUDIO_OUTPUT_DEVICE 23 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 23 0 23
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 23 1 23
+
+
+
+#Combi-ASax-Tpt1
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 24 0
+SET CHANNEL MIDI_INPUT_PORT 24 11
+SET CHANNEL MIDI_INPUT_CHANNEL 24 0
+LOAD ENGINE GIG 24
+SET CHANNEL VOLUME 24 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 24 3
+SET CHANNEL AUDIO_OUTPUT_DEVICE 24 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 24 0 24
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 24 1 24
+
+#Combi-ASax-Tpt2
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 25 0
+SET CHANNEL MIDI_INPUT_PORT 25 11
+SET CHANNEL MIDI_INPUT_CHANNEL 25 1
+LOAD ENGINE GIG 25
+SET CHANNEL VOLUME 25 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 25 3
+SET CHANNEL AUDIO_OUTPUT_DEVICE 25 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 25 0 25
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 25 1 25
+
+#FCH-Combi-Tpt-Tb
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 26 0
+SET CHANNEL MIDI_INPUT_PORT 26 12
+SET CHANNEL MIDI_INPUT_CHANNEL 26 0
+LOAD ENGINE GIG 26
+SET CHANNEL VOLUME 26 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 26 4
+SET CHANNEL AUDIO_OUTPUT_DEVICE 26 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 26 0 26
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 26 1 26
+
+#FCH-Combi-Tpt-Tb2
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 27 0
+SET CHANNEL MIDI_INPUT_PORT 27 12
+SET CHANNEL MIDI_INPUT_CHANNEL 27 1
+LOAD ENGINE GIG 27
+SET CHANNEL VOLUME 27 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 27 4
+SET CHANNEL AUDIO_OUTPUT_DEVICE 27 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 27 0 27
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 27 1 27
+
+#FrenchHorn1
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 28 0
+SET CHANNEL MIDI_INPUT_PORT 28 10
+SET CHANNEL MIDI_INPUT_CHANNEL 28 0
+LOAD ENGINE GIG 28
+SET CHANNEL VOLUME 28 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 28 6
+SET CHANNEL AUDIO_OUTPUT_DEVICE 28 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 28 0 28
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 28 1 28
+
+#FrenchHorn2
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 29 0
+SET CHANNEL MIDI_INPUT_PORT 29 10
+SET CHANNEL MIDI_INPUT_CHANNEL 29 1
+LOAD ENGINE GIG 29
+SET CHANNEL VOLUME 29 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 29 6
+SET CHANNEL AUDIO_OUTPUT_DEVICE 29 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 29 0 29
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 29 1 29
+
+
+#HH13-13UFIP_Bionic_hihat-mwh-ND
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 30 0
+SET CHANNEL MIDI_INPUT_PORT 30 13
+SET CHANNEL MIDI_INPUT_CHANNEL 30 9
+LOAD ENGINE GIG 30
+SET CHANNEL VOLUME 30 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 30 12
+SET CHANNEL AUDIO_OUTPUT_DEVICE 30 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 30 0 30
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 30 1 30
+
+
+#NDK-Cymbals
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 31 0
+SET CHANNEL MIDI_INPUT_PORT 31 13
+SET CHANNEL MIDI_INPUT_CHANNEL 31 9
+LOAD ENGINE GIG 31
+SET CHANNEL VOLUME 31 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 31 13
+SET CHANNEL AUDIO_OUTPUT_DEVICE 31 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 31 0 31
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 31 1 31
+
+#KD-20_Punch-NDK
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 32 0
+SET CHANNEL MIDI_INPUT_PORT 32 13
+SET CHANNEL MIDI_INPUT_CHANNEL 32 9
+LOAD ENGINE GIG 32
+SET CHANNEL VOLUME 32 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 32 14
+SET CHANNEL AUDIO_OUTPUT_DEVICE 32 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 32 0 32
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 32 1 32
+
+#Percussion-Cowbell
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 33 0
+SET CHANNEL MIDI_INPUT_PORT 33 13
+SET CHANNEL MIDI_INPUT_CHANNEL 33 9
+LOAD ENGINE GIG 33
+SET CHANNEL VOLUME 33 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 33 15
+SET CHANNEL AUDIO_OUTPUT_DEVICE 33 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 33 0 33
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 33 1 33
+
+#SD-funk-NDK
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 34 0
+SET CHANNEL MIDI_INPUT_PORT 34 13
+SET CHANNEL MIDI_INPUT_CHANNEL 34 9
+LOAD ENGINE GIG 34
+SET CHANNEL VOLUME 34 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 34 16
+SET CHANNEL AUDIO_OUTPUT_DEVICE 34 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 34 0 34
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 34 1 34
+
+#Toms-Rock-NDK
+ADD CHANNEL
+SET CHANNEL MIDI_INPUT_DEVICE 35 0
+SET CHANNEL MIDI_INPUT_PORT 35 13
+SET CHANNEL MIDI_INPUT_CHANNEL 35 9
+LOAD ENGINE GIG 35
+SET CHANNEL VOLUME 35 1.0
+SET CHANNEL MIDI_INSTRUMENT_MAP 35 17
+SET CHANNEL AUDIO_OUTPUT_DEVICE 35 0
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 35 0 35
+SET CHANNEL AUDIO_OUTPUT_CHANNEL 35 1 35

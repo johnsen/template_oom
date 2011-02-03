@@ -1,0 +1,4858 @@
+<?xml version="1.0"?>
+<oom version="2.0">
+  <configuration>
+    <midiInputDevice>0</midiInputDevice>
+    <midiInputChannel>0</midiInputChannel>
+    <midiRecordType>0</midiRecordType>
+    <midiThruType>0</midiThruType>
+    <midiFilterCtrl1>0</midiFilterCtrl1>
+    <midiFilterCtrl2>0</midiFilterCtrl2>
+    <midiFilterCtrl3>0</midiFilterCtrl3>
+    <midiFilterCtrl4>0</midiFilterCtrl4>
+    <mtctype>1</mtctype>
+    <mtcoffset>00:00:00:00:00</mtcoffset>
+    <sendClockDelay>1</sendClockDelay>
+    <useJackTransport>1</useJackTransport>
+    <jackTransportMaster>1</jackTransportMaster>
+    <extSync>0</extSync>
+    <bigtimeVisible>0</bigtimeVisible>
+    <transportVisible>0</transportVisible>
+    <markerVisible>0</markerVisible>
+    <geometryMain x="-4" y="-2" w="1440" h="845"></geometryMain>
+    <geometryTransport x="0" y="0" w="635" h="80"></geometryTransport>
+    <mixer1Visible>0</mixer1Visible>
+    <mixer2Visible>0</mixer2Visible>
+    <arranger>
+      <arsplit>302 873 </arsplit>
+      <list>
+        <trackHeaders> 8 7 6 5 4 3 2 1 0 </trackHeaders>
+        </list>
+      <xpos>0</xpos>
+      <xmag>266</xmag>
+      <ypos>688</ypos>
+      </arranger>
+    <sequencer>
+      <metronom>
+        <premeasures>2</premeasures>
+        <measurepitch>63</measurepitch>
+        <measurevelo>127</measurevelo>
+        <beatpitch>63</beatpitch>
+        <beatvelo>70</beatvelo>
+        <channel>9</channel>
+        <port>0</port>
+        <precountEnable>0</precountEnable>
+        <fromMastertrack>0</fromMastertrack>
+        <signatureZ>4</signatureZ>
+        <signatureN>4</signatureN>
+        <prerecord>0</prerecord>
+        <preroll>0</preroll>
+        <midiClickEnable>1</midiClickEnable>
+        <audioClickEnable>0</audioClickEnable>
+        <audioClickVolume>0.5</audioClickVolume>
+        </metronom>
+      <rcEnable>0</rcEnable>
+      <rcStop>28</rcStop>
+      <rcRecord>31</rcRecord>
+      <rcGotoLeft>33</rcGotoLeft>
+      <rcPlay>29</rcPlay>
+      <midiport idx="0">
+        <instrument>DanDean-Bassguitar</instrument>
+        <name>jack-midi-0</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="0" name="  Acoustic_Bass_PzM:    Acoustic_Bass_PzM" checked="0" />
+        </midiport>
+      <midiport idx="1">
+        <instrument>DanDean-Bassguitar</instrument>
+        <name>jack-midi-1</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="3076" name="  Rickenbacker_4001:    Rickenbacker_4001_Hard" checked="0" />
+        </midiport>
+      <midiport idx="2">
+        <instrument>DanDean-Bassguitar</instrument>
+        <name>jack-midi-2</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="518" name="  Alembic_Spoiler_Bass:    Alembic_Slap" checked="0" />
+        </midiport>
+      <midiport idx="3">
+        <instrument>Piano</instrument>
+        <name>jack-midi-3</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="0" name="  maestro_concert_grand_v2:    Maestro_Conc._Grand_B" checked="0" />
+        <patchSequence id="256" name="  SalamanderGrandPianoV2:    SalamanderGrandPianoV2" checked="0" />
+        </midiport>
+      <midiport idx="4">
+        <instrument>FCH-Trumpet</instrument>
+        <name>jack-midi-4</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="0" name="  Trumpet_Open:    Trumpet_Open_" checked="0" />
+        </midiport>
+      <midiport idx="5">
+        <instrument>FCH-Trumpet</instrument>
+        <name>jack-midi-5</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="769" name="  Trumpet_Cup_Mute:    Trumpet_Cup_Attack" checked="0" />
+        </midiport>
+      <midiport idx="6">
+        <instrument>FCH-Trumpet</instrument>
+        <name>jack-midi-6</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="517" name="  Trumpet_Harmon_Mute:    Trumpet_Harmon_Flutter" checked="0" />
+        </midiport>
+      <midiport idx="7">
+        <instrument>FCH-Trumpet</instrument>
+        <name>jack-midi-7</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="261" name="  Trumpet_Straight_Mute:    Trumpet_Straight_Mute_Swell" checked="0" />
+        </midiport>
+      <midiport idx="8">
+        <instrument>FCH-Flugelhorn</instrument>
+        <name>jack-midi-8</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="1" name="  Flugelhorn:    Flugel_Solo_Vibrato" checked="0" />
+        </midiport>
+      <midiport idx="9">
+        <instrument>FCH-Flugelhorn</instrument>
+        <name>jack-midi-9</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="256" name="  Flugelhorn_Section:    Flugel_Section_No_Vibrato" checked="0" />
+        </midiport>
+      <midiport idx="10">
+        <instrument>FCH-PiccoloTrumpet</instrument>
+        <name>jack-midi-10</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="0" name="  Piccolo_Trumpet:    Piccolo_Trumpet_Solo" checked="0" />
+        </midiport>
+      <midiport idx="11">
+        <instrument>FCH-PiccoloTrumpet</instrument>
+        <name>jack-midi-11</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="256" name="  Piccolo_Trumpet_Section:    Piccolo_Trumpet_Section" checked="0" />
+        </midiport>
+      <midiport idx="12">
+        <instrument>FCH-Trombone</instrument>
+        <name>jack-midi-12</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="2" name="  Trombone:    Trombone_Solo_Staccato" checked="0" />
+        </midiport>
+      <midiport idx="13">
+        <instrument>FCH-Trombone</instrument>
+        <name>jack-midi-13</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="256" name="  Trombone_Section:    Trombone_Section" checked="0" />
+        </midiport>
+      <midiport idx="14">
+        <instrument>FCH-Trombone</instrument>
+        <name>jack-midi-14</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="6" name="  Trombone:    Trombone_Solo_Fall" checked="0" />
+        </midiport>
+      <midiport idx="15">
+        <instrument>FCH-Trombone</instrument>
+        <name>jack-midi-15</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="5" name="  Trombone:    Trombone_Solo_FPSwell" checked="0" />
+        </midiport>
+      <midiport idx="16">
+        <instrument>FCH-TenorSax</instrument>
+        <name>jack-midi-16</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="0" name="  Tenor_Sax:    Tenor_Sax_Solo_No_Vibrato" checked="0" />
+        </midiport>
+      <midiport idx="17">
+        <instrument>FCH-TenorSax</instrument>
+        <name>jack-midi-17</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="257" name="  Tenor_Sax_Section:    Tenor_Sax_Section_Mellow" checked="0" />
+        </midiport>
+      <midiport idx="18">
+        <instrument>FCH-AltoSax</instrument>
+        <name>jack-midi-18</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="0" name="  Alto_Sax_Solo:    Alto_Sax_Solo" checked="0" />
+        </midiport>
+      <midiport idx="19">
+        <instrument>FCH-AltoSax</instrument>
+        <name>jack-midi-19</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="4" name="  Alto_Sax_Solo:    Alto_Sax_Solo_Vibrato" checked="0" />
+        </midiport>
+      <midiport idx="20">
+        <instrument>FCH-BariSax</instrument>
+        <name>jack-midi-20</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="0" name="  BariSax_Solo:    BariSax_Solo_" checked="0" />
+        </midiport>
+      <midiport idx="21">
+        <instrument>FCH-BariSax</instrument>
+        <name>jack-midi-21</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="1" name="  BariSax_Solo:    BariSax_Solo_Bend_Up" checked="0" />
+        </midiport>
+      <midiport idx="22">
+        <instrument>FCH-SopranoSax-solo</instrument>
+        <name>jack-midi-22</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="1" name="  Soprano_Sax_Solo_Vibrato" checked="0" />
+        </midiport>
+      <midiport idx="23">
+        <instrument>FCH-SopranoSax-solo</instrument>
+        <name>jack-midi-23</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="1" name="  Soprano_Sax_Solo_Vibrato" checked="0" />
+        </midiport>
+      <midiport idx="24">
+        <instrument>FCH-Combi-ASax-Tpt</instrument>
+        <name>jack-midi-24</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="0" name="  ASax_Tpt_FPSwell" checked="0" />
+        </midiport>
+      <midiport idx="25">
+        <instrument>FCH-Combi-ASax-Tpt</instrument>
+        <name>jack-midi-25</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="2" name="  ASax_Tpt_Tb_Staccato" checked="0" />
+        </midiport>
+      <midiport idx="26">
+        <instrument>FCH-Combi-Tpt-Tb</instrument>
+        <name>jack-midi-26</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="0" name="  Tpt_Tb_Fall_Long" checked="0" />
+        </midiport>
+      <midiport idx="27">
+        <instrument>FCH-Combi-Tpt-Tb</instrument>
+        <name>jack-midi-27</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="2" name="  Tpt_Tb_Fall_Short" checked="0" />
+        </midiport>
+      <midiport idx="28">
+        <instrument>FCH-FrenchHorn-solo</instrument>
+        <name>jack-midi-28</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="1" name="  French_Horn_Solo_Vibrato" checked="0" />
+        </midiport>
+      <midiport idx="29">
+        <instrument>FCH-FrenchHorn-solo</instrument>
+        <name>jack-midi-29</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="3" name="  French_Horn_Solo_Staccato" checked="0" />
+        </midiport>
+      <midiport idx="30">
+        <name>jack-midi-30</name>
+        <type>1</type>
+        <openFlags>3</openFlags>
+        <channel idx="0">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="1">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="2">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="3">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="4">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="5">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="6">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="7">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="8">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="9">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="10">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="11">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="12">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="13">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="14">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <channel idx="15">
+          <controller id="7">
+            </controller>
+          <controller id="10">
+            </controller>
+          </channel>
+        <patchSequence id="16776960" name="  Piano:    Grand Piano" checked="0" />
+        <patchSequence id="16777077" name="  Percussive:    Melodic Drum" checked="0" />
+        <patchSequence id="16776960" name="  Piano:    Grand Piano" checked="0" />
+        </midiport>
+      </sequencer>
+    <drumedit>
+      <quant>96</quant>
+      <raster>96</raster>
+      <width>1440</width>
+      <height>845</height>
+      <dlistwidth>205</dlistwidth>
+      <dcanvaswidth>1232</dcanvaswidth>
+      <to>0</to>
+      </drumedit>
+    <pianoroll>
+      <quant>96</quant>
+      <raster>1536</raster>
+      <quantStrength>80</quantStrength>
+      <quantLimit>50</quantLimit>
+      <quantLen>0</quantLen>
+      <to>0</to>
+      <width>1440</width>
+      <height>845</height>
+      <colormode>2</colormode>
+      </pianoroll>
+    <masteredit>
+      <raster>0</raster>
+      </masteredit>
+    <waveedit>
+      <bgcolor r="200" g="200" b="200"></bgcolor>
+      <width>600</width>
+      <height>400</height>
+      </waveedit>
+    </configuration>
+  <song>
+    <info></info>
+    <automation>1</automation>
+    <cpos>4735</cpos>
+    <rpos>0</rpos>
+    <lpos>0</lpos>
+    <master>1</master>
+    <loop>0</loop>
+    <punchin>0</punchin>
+    <punchout>0</punchout>
+    <record>0</record>
+    <solo>0</solo>
+    <type>0</type>
+    <recmode>0</recmode>
+    <cycle>0</cycle>
+    <click>0</click>
+    <quantize>0</quantize>
+    <len>62976</len>
+    <follow>1</follow>
+    <miditrack>
+      <name>DanDean-Bass1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>0</device>
+      <channel>0</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>DanDean-Bass1</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        <event tick="0" len="768" a="36" b="70" />
+        <event tick="768" len="768" a="36" b="70" />
+        <event tick="2304" len="768" a="36" b="70" />
+        <event tick="3072" len="768" a="36" b="70" />
+        <event tick="4608" len="768" a="36" b="70" />
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>DanDean-Bass2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>1</device>
+      <channel>1</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>DanDean-Bass2</name>
+        <poslen tick="0" len="46080" />
+        <selected>0</selected>
+        <color>0</color>
+        <event tick="0" len="768" a="36" b="70" />
+        <event tick="768" len="192" a="40" b="70" />
+        <event tick="1344" len="192" a="41" b="70" />
+        <event tick="1728" len="192" a="43" b="70" />
+        <event tick="2112" len="192" a="46" b="70" />
+        <event tick="2688" len="192" a="48" b="70" />
+        <event tick="2688" len="192" a="42" b="70" />
+        <event tick="3264" len="192" a="51" b="70" />
+        <event tick="3840" len="192" a="53" b="70" />
+        <event tick="4224" len="192" a="54" b="70" />
+        <event tick="4416" len="192" a="55" b="70" />
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>DanDean-Bass3</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>2</device>
+      <channel>2</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>DanDean-Bass3</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        <event tick="0" len="384" a="36" b="70" />
+        <event tick="384" len="384" a="48" b="70" />
+        <event tick="768" len="384" a="36" b="70" />
+        <event tick="1152" len="384" a="48" b="70" />
+        <event tick="1536" len="384" a="36" b="70" />
+        <event tick="1920" len="384" a="48" b="70" />
+        <event tick="2304" len="384" a="36" b="70" />
+        <event tick="2688" len="384" a="48" b="70" />
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>Grand Piano</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>3</device>
+      <channel>0</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>Grand Piano</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-Trumpet1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>4</device>
+      <channel>0</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-Trumpet1</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        <event tick="1536" len="384" a="72" b="70" />
+        <event tick="2304" len="384" a="74" b="70" />
+        <event tick="2688" len="384" a="76" b="70" />
+        <event tick="3072" len="384" a="78" b="70" />
+        <event tick="3072" len="384" a="74" b="70" />
+        <event tick="3456" len="384" a="81" b="70" />
+        <event tick="3840" len="384" a="77" b="70" />
+        <event tick="4224" len="384" a="73" b="70" />
+        <event tick="4224" len="384" a="71" b="70" />
+        <event tick="4608" len="384" a="68" b="70" />
+        <event tick="4992" len="384" a="69" b="70" />
+        <event tick="5376" len="384" a="73" b="70" />
+        <event tick="5760" len="384" a="77" b="70" />
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-Trumpet2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>5</device>
+      <channel>1</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-Trumpet2</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        <event tick="0" len="384" a="60" b="70" />
+        <event tick="384" len="384" a="61" b="70" />
+        <event tick="768" len="384" a="62" b="70" />
+        <event tick="1152" len="384" a="63" b="70" />
+        <event tick="1536" len="384" a="64" b="70" />
+        <event tick="1920" len="384" a="65" b="70" />
+        <event tick="2304" len="384" a="67" b="70" />
+        <event tick="2688" len="384" a="68" b="70" />
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-Trumpet3</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>6</device>
+      <channel>2</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-Trumpet3</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        <event tick="0" len="384" a="60" b="70" />
+        <event tick="384" len="384" a="59" b="70" />
+        <event tick="768" len="384" a="56" b="70" />
+        <event tick="1152" len="384" a="71" b="70" />
+        <event tick="1536" len="384" a="69" b="70" />
+        <event tick="1920" len="384" a="65" b="70" />
+        <event tick="2304" len="384" a="62" b="70" />
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-Trumpet4</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>7</device>
+      <channel>3</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-Trumpet4</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        <event tick="0" len="1536" a="60" b="70" />
+        <event tick="1536" len="1536" a="60" b="70" />
+        <event tick="3072" len="1536" a="60" b="70" />
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-Flugelhorn1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>8</device>
+      <channel>0</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-Flugelhorn1</name>
+        <poslen tick="0" len="62976" />
+        <selected>0</selected>
+        <color>0</color>
+        <event tick="0" len="1536" a="65" b="70" />
+        <event tick="0" len="1536" a="83" b="70" />
+        <event tick="3072" len="1536" a="79" b="70" />
+        <event tick="4608" len="1536" a="68" b="70" />
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-Flugelhorn2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>9</device>
+      <channel>1</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-Flugelhorn2</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-PiccoloTrumpet1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>10</device>
+      <channel>0</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-PiccoloTrumpet1</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-PiccoloTrumpet2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>11</device>
+      <channel>1</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-PiccoloTrumpet2</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-Trombone1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>12</device>
+      <channel>0</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-Trombone1</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-Trombone2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>13</device>
+      <channel>1</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-Trombone2</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-Trombone3</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>14</device>
+      <channel>2</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-Trombone3</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-Trombone4</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>15</device>
+      <channel>3</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-Trombone4</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-TenorSax1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>16</device>
+      <channel>0</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-TenorSax1</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-TenorSax2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>17</device>
+      <channel>1</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-TenorSax2</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-AltoSax1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>18</device>
+      <channel>0</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-AltoSax1</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-AltoSax2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>19</device>
+      <channel>1</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-AltoSax2</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-BariSax1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>20</device>
+      <channel>0</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-BariSax1</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-BariSax2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>21</device>
+      <channel>1</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-BariSax2</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        </part>
+      <part>
+        <name>FCH-BariSax2</name>
+        <poslen tick="61440" len="1536" />
+        <selected>0</selected>
+        <color>0</color>
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-SopranoSax1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>22</device>
+      <channel>0</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-SopranoSax1</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-SopranoSax2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>23</device>
+      <channel>1</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-SopranoSax2</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-Combi-ASax-Tpt1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>24</device>
+      <channel>0</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-Combi-ASax-Tpt1</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-Combi-ASax-Tpt2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>25</device>
+      <channel>1</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-Combi-ASax-Tpt2</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-Combi-Tpt-Tb1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>26</device>
+      <channel>0</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-Combi-Tpt-Tb1</name>
+        <poslen tick="0" len="62976" />
+        <selected>0</selected>
+        <color>0</color>
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-Combi-Tpt-Tb2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>27</device>
+      <channel>1</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-Combi-Tpt-Tb2</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-FrenchHorn1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>28</device>
+      <channel>0</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-FrenchHorn1</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>FCH-FrenchHorn2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <selected>1</selected>
+      <device>29</device>
+      <channel>1</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>FCH-FrenchHorn2</name>
+        <poslen tick="0" len="61440" />
+        <selected>1</selected>
+        <color>0</color>
+        </part>
+      </miditrack>
+    <miditrack>
+      <name>NDK-Funkkit</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>0</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <device>0</device>
+      <channel>0</channel>
+      <locked>0</locked>
+      <echo>1</echo>
+      <transposition>0</transposition>
+      <velocity>0</velocity>
+      <delay>0</delay>
+      <len>100</len>
+      <compression>100</compression>
+      <automation>1</automation>
+      <part>
+        <name>NDK-Funkkit</name>
+        <poslen tick="0" len="61440" />
+        <selected>0</selected>
+        <color>0</color>
+        </part>
+      </miditrack>
+    <AudioOutput>
+      <name>Master</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        0 0,         
+        </controller>
+      <controller id="2" cur="0">
+        0 0,         
+        </controller>
+      </AudioOutput>
+    <Route channel="0">
+      <source name="Master"/>
+      <dest type="1" name="system:playback_1"/>
+      </Route>
+    <Route channel="1">
+      <source name="Master"/>
+      <dest type="1" name="system:playback_2"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-0"/>
+      <dest type="1" name="LSJPort0:DanDean-Bassguitar"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-1"/>
+      <dest type="1" name="LSJPort0:DanDean-Bassguitar"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-2"/>
+      <dest type="1" name="LSJPort0:DanDean-Bassguitar"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-3"/>
+      <dest type="1" name="LSJPort0:Grand-Piano"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-4"/>
+      <dest type="1" name="LSJPort0:FCH-Trumpet"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-5"/>
+      <dest type="1" name="LSJPort0:FCH-Trumpet"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-6"/>
+      <dest type="1" name="LSJPort0:FCH-Trumpet"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-7"/>
+      <dest type="1" name="LSJPort0:FCH-Trumpet"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-8"/>
+      <dest type="1" name="LSJPort0:FCH-Flugelhorn"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-9"/>
+      <dest type="1" name="LSJPort0:FCH-Flugelhorn"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-10"/>
+      <dest type="1" name="LSJPort0:FCH-PiccoloTrumpet"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-11"/>
+      <dest type="1" name="LSJPort0:FCH-PiccoloTrumpet"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-12"/>
+      <dest type="1" name="LSJPort0:FCH-Trombone"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-13"/>
+      <dest type="1" name="LSJPort0:FCH-Trombone"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-14"/>
+      <dest type="1" name="LSJPort0:FCH-Trombone"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-15"/>
+      <dest type="1" name="LSJPort0:FCH-Trombone"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-16"/>
+      <dest type="1" name="LSJPort0:FCH-TenorSax"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-17"/>
+      <dest type="1" name="LSJPort0:FCH-TenorSax"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-18"/>
+      <dest type="1" name="LSJPort0:FCH-AltoSax"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-19"/>
+      <dest type="1" name="LSJPort0:FCH-AltoSax"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-20"/>
+      <dest type="1" name="LSJPort0:FCH-BariSax"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-21"/>
+      <dest type="1" name="LSJPort0:FCH-BariSax"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-22"/>
+      <dest type="1" name="LSJPort0:FCH-SopranoSax-solo"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-23"/>
+      <dest type="1" name="LSJPort0:FCH-SopranoSax-solo"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-24"/>
+      <dest type="1" name="LSJPort0:FCH-Combi-ASax-Tpt"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-25"/>
+      <dest type="1" name="LSJPort0:FCH-Combi-ASax-Tpt"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-26"/>
+      <dest type="1" name="LSJPort0:FCH-Combi-Tpt-Tb"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-27"/>
+      <dest type="1" name="LSJPort0:FCH-Combi-Tpt-Tb"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-28"/>
+      <dest type="1" name="LSJPort0:FCH-FrenchHorn"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-29"/>
+      <dest type="1" name="LSJPort0:FCH-FrenchHorn"/>
+      </Route>
+    <Route>
+      <source devtype="1" name="jack-midi-30"/>
+      <dest type="1" name="LSJPort0:NDK-Funkkit"/>
+      </Route>
+    <tempolist fix="500000">
+      <tempo at="21474837">
+        <tick>0</tick>
+        <val>500000</val>
+        </tempo>
+      </tempolist>
+    <siglist>
+      <sig at="21474836">
+        <tick>0</tick>
+        <nom>4</nom>
+        <denom>4</denom>
+        </sig>
+      </siglist>
+    <drummap>
+      <entry idx="0">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="1">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="2">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="3">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="4">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="5">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="6">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="7">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="8">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="9">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="10">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="11">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="12">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="13">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="14">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="15">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="16">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="17">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="18">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="19">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="20">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="21">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="22">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="23">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="24">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="25">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="26">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="27">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="28">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="29">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="30">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="31">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="32">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="33">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="34">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="35">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="36">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="37">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="38">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="39">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="40">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="41">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="42">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="43">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="44">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="45">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="46">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="47">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="48">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="49">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="50">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="51">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="52">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="53">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="54">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="55">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="56">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="57">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="58">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="59">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="60">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="61">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="62">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="63">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="64">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="65">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="66">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="67">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="68">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="69">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="70">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="71">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="72">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="73">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="74">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="75">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="76">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="77">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="78">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="79">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="80">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="81">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="82">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="83">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="84">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="85">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="86">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="87">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="88">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="89">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="90">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="91">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="92">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="93">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="94">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="95">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="96">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="97">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="98">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="99">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="100">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="101">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="102">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="103">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="104">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="105">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="106">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="107">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="108">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="109">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="110">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="111">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="112">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="113">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="114">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="115">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="116">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="117">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="118">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="119">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="120">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="121">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="122">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="123">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="124">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="125">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="126">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      <entry idx="127">
+        <channel>8</channel>
+        <port>30</port>
+        </entry>
+      </drummap>
+    </song>
+  <toplevels>
+    </toplevels>
+  </oom>
