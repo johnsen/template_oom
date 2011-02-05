@@ -19,7 +19,7 @@
     <transportVisible>0</transportVisible>
     <markerVisible>0</markerVisible>
     <geometryMain x="-4" y="-4" w="1440" h="845"></geometryMain>
-    <geometryTransport x="116" y="214" w="635" h="80"></geometryTransport>
+    <geometryTransport x="116" y="214" w="100" h="30"></geometryTransport>
     <mixer1Visible>0</mixer1Visible>
     <mixer2Visible>0</mixer2Visible>
     <arranger>
@@ -572,7 +572,10 @@
           <controller id="10">
             </controller>
           </channel>
-        <patchSequence id="0" name="  Trumpet_Open:    Trumpet_Open_" checked="0" />
+        <patchSequence id="0" name="  Trumpet_Open:    Trumpet_Open_" checked="1" />
+        <patchSequence id="773" name="  Trumpet_Cup_Mute:    Trumpet_Cup_Finger_Trill" checked="1" />
+        <patchSequence id="1024" name="  Trumpet_Section:    Trumpet_Section" checked="0" />
+        <patchSequence id="768" name="  Trumpet_Cup_Mute:    Trumpet_Cup_" checked="0" />
         </midiport>
       <midiport idx="5">
         <instrument>FCH-Trumpet</instrument>
@@ -3285,11 +3288,11 @@
     <info></info>
     <associatedRoute></associatedRoute>
     <automation>1</automation>
-    <cpos>7102</cpos>
-    <rpos>0</rpos>
+    <cpos>6398</cpos>
+    <rpos>7680</rpos>
     <lpos>0</lpos>
     <master>0</master>
-    <loop>0</loop>
+    <loop>1</loop>
     <punchin>0</punchin>
     <punchout>0</punchout>
     <record>0</record>
@@ -3435,11 +3438,12 @@
       <name>FCH-Trumpet1</name>
       <record>0</record>
       <mute>0</mute>
-      <solo>1</solo>
+      <solo>0</solo>
       <off>0</off>
       <channels>0</channels>
       <height>40</height>
       <locked>0</locked>
+      <selected>1</selected>
       <device>4</device>
       <channel>0</channel>
       <locked>0</locked>
@@ -3455,12 +3459,15 @@
         <poslen tick="0" len="61440" />
         <selected>1</selected>
         <color>0</color>
+        <event tick="0" type="1" a="262145" b="1024" />
         <event tick="1536" len="384" a="72" b="70" />
         <event tick="2304" len="384" a="74" b="70" />
+        <event tick="2646" type="1" a="262145" b="1024" />
         <event tick="2688" len="384" a="76" b="70" />
         <event tick="3072" len="384" a="78" b="70" />
         <event tick="3072" len="384" a="74" b="70" />
         <event tick="3456" len="384" a="81" b="70" />
+        <event tick="3465" type="1" a="262145" b="768" />
         <event tick="3840" len="384" a="77" b="70" />
         <event tick="4224" len="384" a="73" b="70" />
         <event tick="4224" len="384" a="71" b="70" />
@@ -4180,8 +4187,8 @@
       <prefader>0</prefader>
       <sendMetronome>0</sendMetronome>
       <automation>0</automation>
-      <auxSend idx="0">0.135847</auxSend>
-      <auxSend idx="1">0.173061</auxSend>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
       <controller id="0" cur="1.02164">
         0 1.02164,         
         </controller>
@@ -4199,13 +4206,13 @@
         </part>
       <part>
         <name>Audio Trumpet1</name>
-        <poslen sample="0" len="480000" />
+        <poslen sample="0" len="288000" />
         <selected>0</selected>
         <color>0</color>
         <event>
-          <poslen sample="0" len="416256" />
+          <poslen sample="0" len="278528" />
           <frame>0</frame>
-          <file>/home/derick/linuxaudio/openoctave2/rec1.wav</file>
+          <file>rec1.wav</file>
           </event>
         </part>
       </wavetrack>
@@ -4221,8 +4228,8 @@
       <prefader>0</prefader>
       <sendMetronome>0</sendMetronome>
       <automation>0</automation>
-      <auxSend idx="0">0.159643</auxSend>
-      <auxSend idx="1">0.115598</auxSend>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
       <controller id="0" cur="1">
         0 1,         
         </controller>
@@ -4246,8 +4253,8 @@
       <prefader>0</prefader>
       <sendMetronome>0</sendMetronome>
       <automation>0</automation>
-      <auxSend idx="0">0.0907403</auxSend>
-      <auxSend idx="1">0.0837047</auxSend>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
       <controller id="0" cur="1.30152">
         0 1.30152,         
         </controller>
@@ -4267,12 +4274,11 @@
       <channels>2</channels>
       <height>40</height>
       <locked>0</locked>
-      <selected>1</selected>
       <prefader>0</prefader>
       <sendMetronome>0</sendMetronome>
       <automation>0</automation>
-      <auxSend idx="0">0.106635</auxSend>
-      <auxSend idx="1">0.0772147</auxSend>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
       <controller id="0" cur="0.739776">
         0 0.739776,         
         </controller>
@@ -4351,6 +4357,30 @@
         0 0,         
         </controller>
       </AudioOutput>
+    <AudioBuss>
+      <name>Buss Trumpet</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0.882138</auxSend>
+      <auxSend idx="1">0.787967</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        0 0,         
+        </controller>
+      <controller id="2" cur="0">
+        0 0,         
+        </controller>
+      </AudioBuss>
     <AudioAux>
       <name>Aux ER</name>
       <record>0</record>
@@ -4395,9 +4425,9 @@
         0 0,         
         </controller>
       </AudioAux>
-    <Route>
+    <Route channel="0" channels="2">
       <source name="Audio Trumpet1"/>
-      <dest name="Master"/>
+      <dest name="Buss Trumpet"/>
       </Route>
     <Route channel="0">
       <source type="1" name="jconvolver:Out-1"/>
@@ -4438,13 +4468,17 @@
       <source name="Input Trumpet1"/>
       <dest name="Audio Trumpet1"/>
       </Route>
-    <Route channel="0">
-      <source name="Master"/>
-      <dest type="1" name="system:playback_1"/>
+    <Route channel="0" channels="2">
+      <source name="Input Trumpet1"/>
+      <dest name="Buss Trumpet"/>
       </Route>
     <Route channel="1">
       <source name="Master"/>
       <dest type="1" name="system:playback_2"/>
+      </Route>
+    <Route channel="0">
+      <source name="Master"/>
+      <dest type="1" name="system:playback_1"/>
       </Route>
     <Route channel="0">
       <source name="Jconv-ER-out
@@ -4465,6 +4499,10 @@
       <source name="Jconv-TAIL-out
 "/>
       <dest type="1" name="jconvolver:In-4"/>
+      </Route>
+    <Route channel="0" channels="2">
+      <source name="Buss Trumpet"/>
+      <dest name="Master"/>
       </Route>
     <Route>
       <source name="Aux ER"/>
@@ -4500,6 +4538,7 @@
       <vtrack>Aux TAIL</vtrack>
       <vtrack>Input Trumpet1</vtrack>
       <vtrack>Audio Trumpet1</vtrack>
+      <vtrack>Buss Trumpet</vtrack>
       </trackview>
     <Route>
       <source devtype="1" name="jack-midi-0"/>

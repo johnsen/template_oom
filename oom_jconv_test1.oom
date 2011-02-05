@@ -3285,7 +3285,7 @@
     <info></info>
     <associatedRoute></associatedRoute>
     <automation>1</automation>
-    <cpos>7102</cpos>
+    <cpos>5349</cpos>
     <rpos>0</rpos>
     <lpos>0</lpos>
     <master>0</master>
@@ -3435,7 +3435,7 @@
       <name>FCH-Trumpet1</name>
       <record>0</record>
       <mute>0</mute>
-      <solo>1</solo>
+      <solo>0</solo>
       <off>0</off>
       <channels>0</channels>
       <height>40</height>
@@ -4172,11 +4172,12 @@
       <name>Audio Trumpet1</name>
       <record>0</record>
       <mute>0</mute>
-      <solo>0</solo>
+      <solo>1</solo>
       <off>0</off>
       <channels>2</channels>
       <height>40</height>
       <locked>0</locked>
+      <selected>1</selected>
       <prefader>0</prefader>
       <sendMetronome>0</sendMetronome>
       <automation>0</automation>
@@ -4267,7 +4268,6 @@
       <channels>2</channels>
       <height>40</height>
       <locked>0</locked>
-      <selected>1</selected>
       <prefader>0</prefader>
       <sendMetronome>0</sendMetronome>
       <automation>0</automation>
@@ -4399,6 +4399,10 @@
       <source name="Audio Trumpet1"/>
       <dest name="Master"/>
       </Route>
+    <Route channel="0" channels="2">
+      <source name="Audio Trumpet1"/>
+      <dest name="Master"/>
+      </Route>
     <Route channel="0">
       <source type="1" name="jconvolver:Out-1"/>
       <dest name="Jconv-ER-in"/>
@@ -4438,13 +4442,13 @@
       <source name="Input Trumpet1"/>
       <dest name="Audio Trumpet1"/>
       </Route>
-    <Route channel="0">
-      <source name="Master"/>
-      <dest type="1" name="system:playback_1"/>
-      </Route>
     <Route channel="1">
       <source name="Master"/>
       <dest type="1" name="system:playback_2"/>
+      </Route>
+    <Route channel="0">
+      <source name="Master"/>
+      <dest type="1" name="system:playback_1"/>
       </Route>
     <Route channel="0">
       <source name="Jconv-ER-out
