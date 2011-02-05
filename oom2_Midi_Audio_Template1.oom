@@ -22,12 +22,24 @@
     <geometryTransport x="116" y="214" w="635" h="80"></geometryTransport>
     <mixer1Visible>0</mixer1Visible>
     <mixer2Visible>0</mixer2Visible>
+    <Mixer>
+      <name>Mixer A</name>
+      <geometry x="2" y="26" w="1440" h="845"></geometry>
+      <showMidiTracks>1</showMidiTracks>
+      <showDrumTracks>1</showDrumTracks>
+      <showInputTracks>1</showInputTracks>
+      <showOutputTracks>1</showOutputTracks>
+      <showWaveTracks>1</showWaveTracks>
+      <showGroupTracks>1</showGroupTracks>
+      <showAuxTracks>1</showAuxTracks>
+      <showSyntiTracks>1</showSyntiTracks>
+      </Mixer>
     <arranger>
       <arsplit>302 926 </arsplit>
       <list>
         <trackHeaders> 8 7 6 5 4 3 2 1 0 </trackHeaders>
         </list>
-      <xpos>0</xpos>
+      <xpos>5</xpos>
       <xmag>266</xmag>
       <ypos>0</ypos>
       </arranger>
@@ -56,7 +68,7 @@
       <rcGotoLeft>33</rcGotoLeft>
       <rcPlay>29</rcPlay>
       <midiport idx="0">
-        <name>jack-midi-0</name>
+        <name>DD-Bass1</name>
         <type>1</type>
         <openFlags>3</openFlags>
         <channel idx="0">
@@ -261,6 +273,8 @@
             </controller>
           </channel>
         <patchSequence id="3076" name="  Rickenbacker_4001:    Rickenbacker_4001_Hard" checked="0" />
+        <patchSequence id="768" name="  Alembic_5_String_FB_AMP:    Alembic/5_FB_Amp" checked="0" />
+        <patchSequence id="0" name="  Acoustic_Bass_PzM:    Acoustic_Bass_PzM" checked="0" />
         </midiport>
       <midiport idx="2">
         <instrument>DanDean-Bassguitar</instrument>
@@ -467,7 +481,6 @@
             </controller>
           </channel>
         <patchSequence id="0" name="  maestro_concert_grand_v2:    Maestro_Conc._Grand_B" checked="0" />
-        <patchSequence id="256" name="  SalamanderGrandPianoV2:    SalamanderGrandPianoV2" checked="0" />
         </midiport>
       <midiport idx="4">
         <instrument>FCH-Trumpet</instrument>
@@ -781,6 +794,7 @@
             </controller>
           </channel>
         <patchSequence id="517" name="  Trumpet_Harmon_Mute:    Trumpet_Harmon_Flutter" checked="0" />
+        <patchSequence id="5" name="  Trumpet_Open:    Trumpet_Open_Lazy" checked="0" />
         </midiport>
       <midiport idx="7">
         <instrument>FCH-Trumpet</instrument>
@@ -986,7 +1000,7 @@
           <controller id="10">
             </controller>
           </channel>
-        <patchSequence id="1" name="  Flugelhorn:    Flugel_Solo_Vibrato" checked="0" />
+        <patchSequence id="0" name="  Flugelhorn:    Flugel_Solo_No_Vibrato" checked="0" />
         </midiport>
       <midiport idx="9">
         <instrument>FCH-Flugelhorn</instrument>
@@ -1398,7 +1412,7 @@
           <controller id="10">
             </controller>
           </channel>
-        <patchSequence id="2" name="  Trombone:    Trombone_Solo_Staccato" checked="0" />
+        <patchSequence id="0" name="  Trombone:    Trombone_Solo_No_Vibrato" checked="0" />
         </midiport>
       <midiport idx="13">
         <instrument>FCH-Trombone</instrument>
@@ -2428,7 +2442,7 @@
           <controller id="10">
             </controller>
           </channel>
-        <patchSequence id="1" name="  Soprano_Sax_Solo_Vibrato" checked="0" />
+        <patchSequence id="0" name="  Soprano_Sax_Solo_No_Vibrato" checked="0" />
         </midiport>
       <midiport idx="23">
         <instrument>FCH-SopranoSax-solo</instrument>
@@ -3046,7 +3060,7 @@
           <controller id="10">
             </controller>
           </channel>
-        <patchSequence id="1" name="  French_Horn_Solo_Vibrato" checked="0" />
+        <patchSequence id="0" name="  French_Horn_Solo_No_Vibrato" checked="0" />
         </midiport>
       <midiport idx="29">
         <instrument>FCH-FrenchHorn-solo</instrument>
@@ -3311,7 +3325,7 @@
       <solo>0</solo>
       <off>0</off>
       <channels>0</channels>
-      <height>100</height>
+      <height>40</height>
       <locked>0</locked>
       <device>0</device>
       <channel>0</channel>
@@ -3358,7 +3372,7 @@
       <automation>1</automation>
       <part>
         <name>DanDean-Bass2</name>
-        <poslen tick="0" len="46080" />
+        <poslen tick="0" len="61440" />
         <selected>0</selected>
         <color>0</color>
         <event tick="0" len="768" a="36" b="70" />
@@ -3572,6 +3586,31 @@
         <event tick="3072" len="1536" a="60" b="70" />
         </part>
       </miditrack>
+    <wavetrack>
+      <name>Audio Trumpet1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <selected>1</selected>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1.02164">
+        0 1.02164,         
+        </controller>
+      <controller id="1" cur="0">
+        0 0,         
+        </controller>
+      <controller id="2" cur="0">
+        0 0,         
+        </controller>
+      </wavetrack>
     <miditrack>
       <name>FCH-Flugelhorn1</name>
       <record>0</record>
@@ -3593,7 +3632,7 @@
       <automation>1</automation>
       <part>
         <name>FCH-Flugelhorn1</name>
-        <poslen tick="0" len="62976" />
+        <poslen tick="0" len="61440" />
         <selected>0</selected>
         <color>0</color>
         <event tick="0" len="1536" a="65" b="70" />
@@ -3939,12 +3978,6 @@
         <selected>0</selected>
         <color>0</color>
         </part>
-      <part>
-        <name>FCH-BariSax2</name>
-        <poslen tick="61440" len="1536" />
-        <selected>0</selected>
-        <color>0</color>
-        </part>
       </miditrack>
     <miditrack>
       <name>FCH-SopranoSax1</name>
@@ -4071,7 +4104,7 @@
       <automation>1</automation>
       <part>
         <name>FCH-Combi-Tpt-Tb1</name>
-        <poslen tick="0" len="62976" />
+        <poslen tick="0" len="61440" />
         <selected>0</selected>
         <color>0</color>
         </part>
@@ -4163,7 +4196,6 @@
       <channels>0</channels>
       <height>40</height>
       <locked>0</locked>
-      <selected>1</selected>
       <device>30</device>
       <channel>0</channel>
       <locked>0</locked>
@@ -4177,7 +4209,7 @@
       <part>
         <name></name>
         <poslen tick="0" len="110592" />
-        <selected>1</selected>
+        <selected>0</selected>
         <color>0</color>
         <event tick="0" type="1" a="262145" b="16776961" />
         <event tick="0" len="385" a="44" b="127" c="127" />
@@ -5407,47 +5439,6 @@
         </part>
       </miditrack>
     <wavetrack>
-      <name>Audio Trumpet1</name>
-      <record>0</record>
-      <mute>0</mute>
-      <solo>0</solo>
-      <off>0</off>
-      <channels>2</channels>
-      <height>40</height>
-      <locked>0</locked>
-      <prefader>0</prefader>
-      <sendMetronome>0</sendMetronome>
-      <automation>0</automation>
-      <auxSend idx="0">0</auxSend>
-      <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1.02164">
-        0 1.02164,         
-        </controller>
-      <controller id="1" cur="0">
-        0 0,         
-        </controller>
-      <controller id="2" cur="0">
-        0 0,         
-        </controller>
-      <part>
-        <name>Audio Trumpet1</name>
-        <poslen sample="0" len="4224000" />
-        <selected>0</selected>
-        <color>0</color>
-        </part>
-      <part>
-        <name>Audio Trumpet1</name>
-        <poslen sample="0" len="288000" />
-        <selected>0</selected>
-        <color>0</color>
-        <event>
-          <poslen sample="0" len="278528" />
-          <frame>0</frame>
-          <file>rec1.wav</file>
-          </event>
-        </part>
-      </wavetrack>
-    <wavetrack>
       <name>Audio NDK-Funkkit</name>
       <record>0</record>
       <mute>0</mute>
@@ -5521,7 +5512,7 @@
         </controller>
       </AudioInput>
     <AudioInput>
-      <name>Input Trumpet1</name>
+      <name>Input FCH-Trumpet1</name>
       <record>0</record>
       <mute>0</mute>
       <solo>0</solo>
@@ -5566,6 +5557,644 @@
         </controller>
       <controller id="2" cur="0">
         0 0,         
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FCH-Trumpet2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FCH-Trumpet3</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FCH-Trumpet4</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FCH-Flugelhorn1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FCH-Flugelhorn2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FCH-PiccolloTrumpet1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FCH-Piccollo-Trumpet2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FCH-Trombone1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FCH-Trombone2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FCH-Trombone3</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FCH-Trombone4</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FCH-TenorSax1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FCH-TenorSax2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FCH-AltoSax1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FCH-AltoSax2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FCH-BariSax1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FCH-BariSax2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FCH-SopranoSax1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FCH-SopranoSax2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FCH-Combi-ASax-Tpt1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FCH-Combi-ASax-Tpt2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FCH-Combi-Tpt-Tb1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FCH-Combi-Tpt-Tb2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FrenchHorn1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input FrenchHorn2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input DD-Bass1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input DD-Bass2</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input DD-Bass3</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioInput>
+    <AudioInput>
+      <name>Input Piano1</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0</auxSend>
+      <auxSend idx="1">0</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
         </controller>
       </AudioInput>
     <AudioOutput>
@@ -5684,6 +6313,248 @@
         0 0,         
         </controller>
       </AudioBuss>
+    <AudioBuss>
+      <name>Buss Piano</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0.232067</auxSend>
+      <auxSend idx="1">0.157651</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioBuss>
+    <AudioBuss>
+      <name>Buss DanDean-Bass</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0.019229</auxSend>
+      <auxSend idx="1">0.00910282</auxSend>
+      <controller id="0" cur="0.667959">
+        0 0.667959,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioBuss>
+    <AudioBuss>
+      <name>Buss Flugelhorn</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0.0493627</auxSend>
+      <auxSend idx="1">0.0879887</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioBuss>
+    <AudioBuss>
+      <name>Buss PiccolloTrumpet</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0.0879887</auxSend>
+      <auxSend idx="1">0.106536</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioBuss>
+    <AudioBuss>
+      <name>Buss Trombone</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0.0879887</auxSend>
+      <auxSend idx="1">0.0879887</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioBuss>
+    <AudioBuss>
+      <name>Buss Combi</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0.129935</auxSend>
+      <auxSend idx="1">0.129935</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioBuss>
+    <AudioBuss>
+      <name>Buss TenorSax</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0.0729266</auxSend>
+      <auxSend idx="1">0.283731</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioBuss>
+    <AudioBuss>
+      <name>Buss AltoSax</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0.106536</auxSend>
+      <auxSend idx="1">0.0729266</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioBuss>
+    <AudioBuss>
+      <name>Buss BariSax</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0.0178942</auxSend>
+      <auxSend idx="1">0.0129062</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioBuss>
+    <AudioBuss>
+      <name>Buss SopranoSax</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0.0599357</auxSend>
+      <auxSend idx="1">0.0599357</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioBuss>
+    <AudioBuss>
+      <name>Buss FrenchHorn</name>
+      <record>0</record>
+      <mute>0</mute>
+      <solo>0</solo>
+      <off>0</off>
+      <channels>2</channels>
+      <height>40</height>
+      <locked>0</locked>
+      <prefader>0</prefader>
+      <sendMetronome>0</sendMetronome>
+      <automation>0</automation>
+      <auxSend idx="0">0.157651</auxSend>
+      <auxSend idx="1">0.283731</auxSend>
+      <controller id="0" cur="1">
+        0 1,         
+        </controller>
+      <controller id="1" cur="0">
+        </controller>
+      <controller id="2" cur="0">
+        </controller>
+      </AudioBuss>
     <AudioAux>
       <name>Aux ER</name>
       <record>0</record>
@@ -5765,18 +6636,18 @@
       </Route>
     <Route channel="0">
       <source type="1" name="LinuxSampler0:1_FCH-Trumpet1"/>
-      <dest name="Input Trumpet1"/>
+      <dest name="Input FCH-Trumpet1"/>
       </Route>
     <Route channel="1">
       <source type="1" name="LinuxSampler0:1_FCH-Trumpet1"/>
-      <dest name="Input Trumpet1"/>
+      <dest name="Input FCH-Trumpet1"/>
       </Route>
     <Route>
-      <source name="Input Trumpet1"/>
+      <source name="Input FCH-Trumpet1"/>
       <dest name="Audio Trumpet1"/>
       </Route>
     <Route channel="0" channels="2">
-      <source name="Input Trumpet1"/>
+      <source name="Input FCH-Trumpet1"/>
       <dest name="Buss Trumpet"/>
       </Route>
     <Route channel="0">
@@ -5881,6 +6752,398 @@
       <dest name="Jconv-TAIL-out
 "/>
       </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-Trumpet2"/>
+      <dest name="Input FCH-Trumpet2"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-Trumpet2"/>
+      <dest name="Input FCH-Trumpet2"/>
+      </Route>
+    <Route>
+      <source name="Input FCH-Trumpet2"/>
+      <dest name="Buss Trumpet"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-Trumpet3"/>
+      <dest name="Input FCH-Trumpet3"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-Trumpet3"/>
+      <dest name="Input FCH-Trumpet3"/>
+      </Route>
+    <Route>
+      <source name="Input FCH-Trumpet3"/>
+      <dest name="Buss Trumpet"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-Trumpet4"/>
+      <dest name="Input FCH-Trumpet4"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-Trumpet4"/>
+      <dest name="Input FCH-Trumpet4"/>
+      </Route>
+    <Route>
+      <source name="Input FCH-Trumpet4"/>
+      <dest name="Buss Trumpet"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-Flugelhorn1"/>
+      <dest name="Input FCH-Flugelhorn1"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-Flugelhorn1"/>
+      <dest name="Input FCH-Flugelhorn1"/>
+      </Route>
+    <Route>
+      <source name="Input FCH-Flugelhorn1"/>
+      <dest name="Buss Flugelhorn"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-Flugelhorn2"/>
+      <dest name="Input FCH-Flugelhorn2"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-Flugelhorn2"/>
+      <dest name="Input FCH-Flugelhorn2"/>
+      </Route>
+    <Route>
+      <source name="Input FCH-Flugelhorn2"/>
+      <dest name="Buss Flugelhorn"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-PiccoloTrumpet1"/>
+      <dest name="Input FCH-PiccolloTrumpet1"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-PiccoloTrumpet1"/>
+      <dest name="Input FCH-PiccolloTrumpet1"/>
+      </Route>
+    <Route>
+      <source name="Input FCH-PiccolloTrumpet1"/>
+      <dest name="Buss PiccolloTrumpet"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-PiccoloTrumpet2"/>
+      <dest name="Input FCH-Piccollo-Trumpet2"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-PiccoloTrumpet2"/>
+      <dest name="Input FCH-Piccollo-Trumpet2"/>
+      </Route>
+    <Route>
+      <source name="Input FCH-Piccollo-Trumpet2"/>
+      <dest name="Buss PiccolloTrumpet"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-Trombone1"/>
+      <dest name="Input FCH-Trombone1"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-Trombone1"/>
+      <dest name="Input FCH-Trombone1"/>
+      </Route>
+    <Route>
+      <source name="Input FCH-Trombone1"/>
+      <dest name="Buss Trombone"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-Trombone2"/>
+      <dest name="Input FCH-Trombone2"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-Trombone2"/>
+      <dest name="Input FCH-Trombone2"/>
+      </Route>
+    <Route>
+      <source name="Input FCH-Trombone2"/>
+      <dest name="Buss Trombone"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-Trombone3"/>
+      <dest name="Input FCH-Trombone3"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-Trombone3"/>
+      <dest name="Input FCH-Trombone3"/>
+      </Route>
+    <Route>
+      <source name="Input FCH-Trombone3"/>
+      <dest name="Buss Trombone"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-Trombone4"/>
+      <dest name="Input FCH-Trombone4"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-Trombone4"/>
+      <dest name="Input FCH-Trombone4"/>
+      </Route>
+    <Route>
+      <source name="Input FCH-Trombone4"/>
+      <dest name="Buss Trombone"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-TenorSax1"/>
+      <dest name="Input FCH-TenorSax1"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-TenorSax1"/>
+      <dest name="Input FCH-TenorSax1"/>
+      </Route>
+    <Route>
+      <source name="Input FCH-TenorSax1"/>
+      <dest name="Buss TenorSax"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-TenorSax2"/>
+      <dest name="Input FCH-TenorSax2"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-TenorSax2"/>
+      <dest name="Input FCH-TenorSax2"/>
+      </Route>
+    <Route>
+      <source name="Input FCH-TenorSax2"/>
+      <dest name="Buss TenorSax"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-AltoSax1"/>
+      <dest name="Input FCH-AltoSax1"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-AltoSax1"/>
+      <dest name="Input FCH-AltoSax1"/>
+      </Route>
+    <Route>
+      <source name="Input FCH-AltoSax1"/>
+      <dest name="Buss AltoSax"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-AltoSax2"/>
+      <dest name="Input FCH-AltoSax2"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-AltoSax2"/>
+      <dest name="Input FCH-AltoSax2"/>
+      </Route>
+    <Route>
+      <source name="Input FCH-AltoSax2"/>
+      <dest name="Buss AltoSax"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-BariSax1"/>
+      <dest name="Input FCH-BariSax1"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-BariSax1"/>
+      <dest name="Input FCH-BariSax1"/>
+      </Route>
+    <Route>
+      <source name="Input FCH-BariSax1"/>
+      <dest name="Buss BariSax"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-BariSax2"/>
+      <dest name="Input FCH-BariSax2"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-BariSax2"/>
+      <dest name="Input FCH-BariSax2"/>
+      </Route>
+    <Route>
+      <source name="Input FCH-BariSax2"/>
+      <dest name="Buss BariSax"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-SopranoSax-solo1"/>
+      <dest name="Input FCH-SopranoSax1"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-SopranoSax-solo1"/>
+      <dest name="Input FCH-SopranoSax1"/>
+      </Route>
+    <Route>
+      <source name="Input FCH-SopranoSax1"/>
+      <dest name="Buss SopranoSax"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-SopranoSax-solo2"/>
+      <dest name="Input FCH-SopranoSax2"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-SopranoSax-solo2"/>
+      <dest name="Input FCH-SopranoSax2"/>
+      </Route>
+    <Route>
+      <source name="Input FCH-SopranoSax2"/>
+      <dest name="Buss SopranoSax"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-Combi-ASax-Tpt1"/>
+      <dest name="Input FCH-Combi-ASax-Tpt1"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-Combi-ASax-Tpt1"/>
+      <dest name="Input FCH-Combi-ASax-Tpt1"/>
+      </Route>
+    <Route>
+      <source name="Input FCH-Combi-ASax-Tpt1"/>
+      <dest name="Buss Combi"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-Combi-ASax-Tpt2"/>
+      <dest name="Input FCH-Combi-ASax-Tpt2"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-Combi-ASax-Tpt2"/>
+      <dest name="Input FCH-Combi-ASax-Tpt2"/>
+      </Route>
+    <Route>
+      <source name="Input FCH-Combi-ASax-Tpt2"/>
+      <dest name="Buss Combi"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-Combi-Tpt-Tb1"/>
+      <dest name="Input FCH-Combi-Tpt-Tb1"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-Combi-Tpt-Tb1"/>
+      <dest name="Input FCH-Combi-Tpt-Tb1"/>
+      </Route>
+    <Route>
+      <source name="Input FCH-Combi-Tpt-Tb1"/>
+      <dest name="Buss Combi"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-Combi-Tpt-Tb2"/>
+      <dest name="Input FCH-Combi-Tpt-Tb2"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-Combi-Tpt-Tb2"/>
+      <dest name="Input FCH-Combi-Tpt-Tb2"/>
+      </Route>
+    <Route>
+      <source name="Input FCH-Combi-Tpt-Tb2"/>
+      <dest name="Buss Combi"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-FrenchHorn1"/>
+      <dest name="Input FrenchHorn1"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-FrenchHorn1"/>
+      <dest name="Input FrenchHorn1"/>
+      </Route>
+    <Route>
+      <source name="Input FrenchHorn1"/>
+      <dest name="Buss Flugelhorn"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_FCH-FrenchHorn2"/>
+      <dest name="Input FrenchHorn2"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_FCH-FrenchHorn2"/>
+      <dest name="Input FrenchHorn2"/>
+      </Route>
+    <Route>
+      <source name="Input FrenchHorn2"/>
+      <dest name="Buss FrenchHorn"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_DanDean-Bassguitar1"/>
+      <dest name="Input DD-Bass1"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_DanDean-Bassguitar1"/>
+      <dest name="Input DD-Bass1"/>
+      </Route>
+    <Route>
+      <source name="Input DD-Bass1"/>
+      <dest name="Buss DanDean-Bass"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_DanDean-Bassguitar2"/>
+      <dest name="Input DD-Bass2"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_DanDean-Bassguitar2"/>
+      <dest name="Input DD-Bass2"/>
+      </Route>
+    <Route>
+      <source name="Input DD-Bass2"/>
+      <dest name="Buss DanDean-Bass"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_DanDean-Bassguitar3"/>
+      <dest name="Input DD-Bass3"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_DanDean-Bassguitar3"/>
+      <dest name="Input DD-Bass3"/>
+      </Route>
+    <Route>
+      <source name="Input DD-Bass3"/>
+      <dest name="Buss DanDean-Bass"/>
+      </Route>
+    <Route channel="0">
+      <source type="1" name="LinuxSampler0:1_Grand-Piano"/>
+      <dest name="Input Piano1"/>
+      </Route>
+    <Route channel="1">
+      <source type="1" name="LinuxSampler0:1_Grand-Piano"/>
+      <dest name="Input Piano1"/>
+      </Route>
+    <Route>
+      <source name="Input Piano1"/>
+      <dest name="Buss Piano"/>
+      </Route>
+    <Route>
+      <source name="Buss Piano"/>
+      <dest name="Master"/>
+      </Route>
+    <Route>
+      <source name="Buss DanDean-Bass"/>
+      <dest name="Master"/>
+      </Route>
+    <Route>
+      <source name="Buss Flugelhorn"/>
+      <dest name="Master"/>
+      </Route>
+    <Route>
+      <source name="Buss PiccolloTrumpet"/>
+      <dest name="Master"/>
+      </Route>
+    <Route>
+      <source name="Buss Trombone"/>
+      <dest name="Master"/>
+      </Route>
+    <Route>
+      <source name="Buss Combi"/>
+      <dest name="Master"/>
+      </Route>
+    <Route>
+      <source name="Buss TenorSax"/>
+      <dest name="Master"/>
+      </Route>
+    <Route>
+      <source name="Buss AltoSax"/>
+      <dest name="Master"/>
+      </Route>
+    <Route>
+      <source name="Buss BariSax"/>
+      <dest name="Master"/>
+      </Route>
+    <Route>
+      <source name="Buss SopranoSax"/>
+      <dest name="Master"/>
+      </Route>
+    <Route>
+      <source name="Buss FrenchHorn"/>
+      <dest name="Master"/>
+      </Route>
     <trackview>
       <name>jazzband</name>
       <selected>0</selected>
@@ -5903,13 +7166,13 @@
 </vtrack>
       <vtrack>Aux ER</vtrack>
       <vtrack>Aux TAIL</vtrack>
-      <vtrack>Input Trumpet1</vtrack>
+      <vtrack>Input FCH-Trumpet1</vtrack>
       <vtrack>Audio Trumpet1</vtrack>
       <vtrack>Buss Trumpet</vtrack>
       </trackview>
     <trackview>
       <name>jconv 2</name>
-      <selected>1</selected>
+      <selected>0</selected>
       <vtrack>FCH-Trumpet1</vtrack>
       <vtrack>Master</vtrack>
       <vtrack>Jconv-ER-out
@@ -5921,7 +7184,7 @@
 </vtrack>
       <vtrack>Aux ER</vtrack>
       <vtrack>Aux TAIL</vtrack>
-      <vtrack>Input Trumpet1</vtrack>
+      <vtrack>Input FCH-Trumpet1</vtrack>
       <vtrack>Audio Trumpet1</vtrack>
       <vtrack>Buss Trumpet</vtrack>
       <vtrack>NDK-Funkkit</vtrack>
@@ -5929,9 +7192,100 @@
       <vtrack>Input NDK-Funkkit</vtrack>
       <vtrack>Buss NDK-Drums</vtrack>
       </trackview>
+    <trackview>
+      <name>BigBand</name>
+      <selected>0</selected>
+      <vtrack>DanDean-Bass1</vtrack>
+      <vtrack>Grand Piano</vtrack>
+      <vtrack>FCH-Trumpet1</vtrack>
+      <vtrack>FCH-Trumpet2</vtrack>
+      <vtrack>FCH-Trumpet3</vtrack>
+      <vtrack>FCH-Trumpet4</vtrack>
+      <vtrack>FCH-Flugelhorn1</vtrack>
+      <vtrack>FCH-PiccoloTrumpet1</vtrack>
+      <vtrack>FCH-Trombone1</vtrack>
+      <vtrack>FCH-Trombone2</vtrack>
+      <vtrack>FCH-Trombone3</vtrack>
+      <vtrack>FCH-Trombone4</vtrack>
+      <vtrack>FCH-TenorSax1</vtrack>
+      <vtrack>FCH-TenorSax2</vtrack>
+      <vtrack>FCH-AltoSax1</vtrack>
+      <vtrack>FCH-AltoSax2</vtrack>
+      <vtrack>FCH-BariSax1</vtrack>
+      <vtrack>FCH-SopranoSax1</vtrack>
+      <vtrack>NDK-Funkkit</vtrack>
+      <vtrack>Audio Trumpet1</vtrack>
+      <vtrack>Audio NDK-Funkkit</vtrack>
+      <vtrack>Jconv-ER-in</vtrack>
+      <vtrack>Jconv-TAIL-in
+</vtrack>
+      <vtrack>Input FCH-Trumpet1</vtrack>
+      <vtrack>Input NDK-Funkkit</vtrack>
+      <vtrack>Master</vtrack>
+      <vtrack>Jconv-ER-out
+</vtrack>
+      <vtrack>Jconv-TAIL-out
+</vtrack>
+      <vtrack>Buss Trumpet</vtrack>
+      <vtrack>Buss NDK-Drums</vtrack>
+      <vtrack>Aux ER</vtrack>
+      <vtrack>Aux TAIL</vtrack>
+      <vtrack>Input FCH-Trumpet2</vtrack>
+      <vtrack>Input FCH-Trumpet3</vtrack>
+      <vtrack>Input FCH-Trumpet4</vtrack>
+      <vtrack>Input FCH-Flugelhorn1</vtrack>
+      <vtrack>Input FCH-PiccolloTrumpet1</vtrack>
+      <vtrack>Input FCH-Trombone1</vtrack>
+      <vtrack>Input FCH-Trombone2</vtrack>
+      <vtrack>Input FCH-Trombone3</vtrack>
+      <vtrack>Input FCH-Trombone4</vtrack>
+      <vtrack>Input FCH-TenorSax1</vtrack>
+      <vtrack>Input FCH-TenorSax2</vtrack>
+      <vtrack>Input FCH-AltoSax1</vtrack>
+      <vtrack>Input FCH-AltoSax2</vtrack>
+      <vtrack>Input FCH-BariSax1</vtrack>
+      <vtrack>Input FCH-SopranoSax1</vtrack>
+      <vtrack>Input DD-Bass1</vtrack>
+      <vtrack>Input Piano1</vtrack>
+      <vtrack>Buss Piano</vtrack>
+      <vtrack>Buss DanDean-Bass</vtrack>
+      <vtrack>Buss Flugelhorn</vtrack>
+      <vtrack>Buss PiccolloTrumpet</vtrack>
+      <vtrack>Buss Trombone</vtrack>
+      <vtrack>Buss TenorSax</vtrack>
+      <vtrack>Buss AltoSax</vtrack>
+      <vtrack>Buss BariSax</vtrack>
+      </trackview>
+    <trackview>
+      <name>BigBand MIDI</name>
+      <selected>0</selected>
+      <vtrack>DanDean-Bass1</vtrack>
+      <vtrack>Grand Piano</vtrack>
+      <vtrack>FCH-Trumpet1</vtrack>
+      <vtrack>FCH-Trumpet2</vtrack>
+      <vtrack>FCH-Trumpet3</vtrack>
+      <vtrack>FCH-Trumpet4</vtrack>
+      <vtrack>FCH-Flugelhorn1</vtrack>
+      <vtrack>FCH-PiccoloTrumpet1</vtrack>
+      <vtrack>FCH-Trombone1</vtrack>
+      <vtrack>FCH-Trombone2</vtrack>
+      <vtrack>FCH-Trombone3</vtrack>
+      <vtrack>FCH-Trombone4</vtrack>
+      <vtrack>FCH-TenorSax1</vtrack>
+      <vtrack>FCH-TenorSax2</vtrack>
+      <vtrack>FCH-AltoSax1</vtrack>
+      <vtrack>FCH-AltoSax2</vtrack>
+      <vtrack>FCH-BariSax1</vtrack>
+      <vtrack>FCH-SopranoSax1</vtrack>
+      <vtrack>NDK-Funkkit</vtrack>
+      </trackview>
     <Route>
-      <source devtype="1" name="jack-midi-0"/>
+      <source devtype="1" name="DD-Bass1"/>
       <dest type="1" name="LSJPort0:DanDean-Bassguitar"/>
+      </Route>
+    <Route>
+      <source type="1" name="firewire_pcm:C4_dev0_Unknown3"/>
+      <dest devtype="1" name="jack-midi-1"/>
       </Route>
     <Route>
       <source devtype="1" name="jack-midi-1"/>
@@ -5940,6 +7294,10 @@
     <Route>
       <source devtype="1" name="jack-midi-2"/>
       <dest type="1" name="LSJPort0:DanDean-Bassguitar"/>
+      </Route>
+    <Route>
+      <source type="1" name="firewire_pcm:C4_dev0_Unknown3"/>
+      <dest devtype="1" name="jack-midi-3"/>
       </Route>
     <Route>
       <source devtype="1" name="jack-midi-3"/>

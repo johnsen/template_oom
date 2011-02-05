@@ -23,7 +23,7 @@
     <mixer1Visible>0</mixer1Visible>
     <mixer2Visible>0</mixer2Visible>
     <arranger>
-      <arsplit>302 873 </arsplit>
+      <arsplit>302 926 </arsplit>
       <list>
         <trackHeaders> 8 7 6 5 4 3 2 1 0 </trackHeaders>
         </list>
@@ -3288,7 +3288,7 @@
     <info></info>
     <associatedRoute></associatedRoute>
     <automation>1</automation>
-    <cpos>0</cpos>
+    <cpos>57260</cpos>
     <rpos>110592</rpos>
     <lpos>0</lpos>
     <master>1</master>
@@ -3456,7 +3456,7 @@
       <part>
         <name>FCH-Trumpet1</name>
         <poslen tick="0" len="61440" />
-        <selected>0</selected>
+        <selected>1</selected>
         <color>0</color>
         <event tick="0" type="1" a="262145" b="1024" />
         <event tick="1536" len="384" a="72" b="70" />
@@ -5455,7 +5455,6 @@
       <channels>2</channels>
       <height>40</height>
       <locked>0</locked>
-      <selected>1</selected>
       <prefader>0</prefader>
       <sendMetronome>0</sendMetronome>
       <automation>0</automation>
@@ -5669,16 +5668,17 @@
       <channels>2</channels>
       <height>40</height>
       <locked>0</locked>
+      <selected>1</selected>
       <prefader>0</prefader>
       <sendMetronome>0</sendMetronome>
       <automation>0</automation>
-      <auxSend idx="0">0.0075271</auxSend>
-      <auxSend idx="1">0.00208546</auxSend>
+      <auxSend idx="0">0.00441451</auxSend>
+      <auxSend idx="1">0.00668751</auxSend>
       <controller id="0" cur="0.817288">
         0 0.817288,         
         </controller>
-      <controller id="1" cur="0">
-        0 0,         
+      <controller id="1" cur="-0.4">
+        0 -0.4,         
         </controller>
       <controller id="2" cur="0">
         0 0,         
