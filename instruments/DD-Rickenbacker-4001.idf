@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<oom version="1.0">
+  
+    <MidiInstrument name="DD-Rickenbacker-4001">
+      
+		<PatchGroup name="Rickenbacker_4001">
+			<Patch name="Rickenbacker_4001_-_PA" hbank="0" lbank="0" prog="0"/>
+			<Patch name="Rickenbacker_4001_-_PB" hbank="0" lbank="0" prog="1"/>
+			<Patch name="Rickenbacker_4001_FB" hbank="0" lbank="0" prog="2"/>
+			<Patch name="Rickenbacker_4001_FF/A" hbank="0" lbank="0" prog="3"/>
+			<Patch name="Rickenbacker_4001_Hard" hbank="0" lbank="0" prog="4"/>
+			<Patch name="Rickenbacker_4001_Keyswitch" hbank="0" lbank="0" prog="5"/>
+		</PatchGroup>
+
+    <Controller name="Modulation" l="1"/><Controller name="reverb" l="3"/><Controller name="MainVolume" l="7"/><Controller name="Pan" l="10"/><Controller name="Expression" l="11"/><Controller name="Program" type="Program" init="0x0"/></MidiInstrument>
+  
+</oom>

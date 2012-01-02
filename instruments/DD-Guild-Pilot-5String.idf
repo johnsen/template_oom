@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<oom version="1.0">
+  
+    <MidiInstrument name="DD-Guild-Pilot-5String">
+      
+		<PatchGroup name="Guild_Pilot_-_5_String">
+			<Patch name="Pilot/5_FF" hbank="0" lbank="0" prog="0"/>
+			<Patch name="Pilot/5_FH" hbank="0" lbank="0" prog="1"/>
+			<Patch name="Pilot/5_PF" hbank="0" lbank="0" prog="2"/>
+			<Patch name="Pilot/5_PH" hbank="0" lbank="0" prog="3"/>
+			<Patch name="Pilot/5_PM" hbank="0" lbank="0" prog="4"/>
+			<Patch name="Pilot/5_Pop" hbank="0" lbank="0" prog="5"/>
+			<Patch name="Pilot/5_Slap" hbank="0" lbank="0" prog="6"/>
+		</PatchGroup>
+
+    <Controller name="Modulation" l="1"/><Controller name="reverb" l="3"/><Controller name="MainVolume" l="7"/><Controller name="Pan" l="10"/><Controller name="Expression" l="11"/><Controller name="Program" type="Program" init="0x0"/></MidiInstrument>
+  
+</oom>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<oom version="1.0">
+  
+    <MidiInstrument name="DD-Alembic-Spoiler-Bass">
+      
+		<PatchGroup name="Alembic_Spoiler_Bass">
+			<Patch name="Alembic_FF" hbank="0" lbank="0" prog="0"/>
+			<Patch name="Alembic_FH" hbank="0" lbank="0" prog="1"/>
+			<Patch name="Alembic_PF" hbank="0" lbank="0" prog="2"/>
+			<Patch name="Alembic_PH" hbank="0" lbank="0" prog="3"/>
+			<Patch name="Alembic_PM" hbank="0" lbank="0" prog="4"/>
+			<Patch name="Alembic_Pop" hbank="0" lbank="0" prog="5"/>
+			<Patch name="Alembic_Slap" hbank="0" lbank="0" prog="6"/>
+			<Patch name="Alembic_Spoiler_Bass_Keyswitch" hbank="0" lbank="0" prog="7"/>
+		</PatchGroup>
+
+    <Controller name="Modulation" l="1"/><Controller name="reverb" l="3"/><Controller name="MainVolume" l="7"/><Controller name="Pan" l="10"/><Controller name="Expression" l="11"/><Controller name="Program" type="Program" init="0x0"/></MidiInstrument>
+  
+</oom>

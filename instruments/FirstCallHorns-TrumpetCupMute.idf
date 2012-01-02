@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<oom version="1.0">
+  
+    <MidiInstrument name="FirstCallHorns-TrumpetCupMute">
+      
+		<PatchGroup name="Trumpet_Cup_Mute">
+			<Patch name="Trumpet_Cup_" hbank="0" lbank="0" prog="0"/>
+			<Patch name="Trumpet_Cup_Attack" hbank="0" lbank="0" prog="1"/>
+			<Patch name="Trumpet_Cup_Doit" hbank="0" lbank="0" prog="2"/>
+			<Patch name="Trumpet_Cup_Fall_Long" hbank="0" lbank="0" prog="3"/>
+			<Patch name="Trumpet_Cup_Fall_Short" hbank="0" lbank="0" prog="4"/>
+			<Patch name="Trumpet_Cup_Finger_Trill" hbank="0" lbank="0" prog="5"/>
+			<Patch name="Trumpet_Cup_Flutter" hbank="0" lbank="0" prog="6"/>
+			<Patch name="Trumpet_Cup_Lazy" hbank="0" lbank="0" prog="7"/>
+			<Patch name="Trumpet_Cup_Lazy_Short" hbank="0" lbank="0" prog="8"/>
+			<Patch name="Trumpet_Cup_Lip_Trill" hbank="0" lbank="0" prog="9"/>
+			<Patch name="Trumpet_Cup_Stab" hbank="0" lbank="0" prog="10"/>
+			<Patch name="Trumpet_Cup_Mute_KeySwitch_1" hbank="0" lbank="0" prog="11"/>
+			<Patch name="Trumpet_Cup_Mute_KeySwitch_2" hbank="0" lbank="0" prog="12"/>
+		</PatchGroup>
+
+    <Controller name="Modulation" l="1"/><Controller name="reverb" l="3"/><Controller name="MainVolume" l="7"/><Controller name="Pan" l="10"/><Controller name="Expression" l="11"/><Controller name="Program" type="Program" init="0x0"/></MidiInstrument>
+  
+</oom>

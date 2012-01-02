@@ -19,29 +19,17 @@
     <transportVisible>0</transportVisible>
     <markerVisible>0</markerVisible>
     <geometryMain x="0" y="0" w="1440" h="845"></geometryMain>
-    <geometryTransport x="116" y="214" w="635" h="80"></geometryTransport>
+    <geometryTransport x="0" y="0" w="100" h="30"></geometryTransport>
     <mixer1Visible>0</mixer1Visible>
     <mixer2Visible>0</mixer2Visible>
-    <Mixer>
-      <name>Mixer A</name>
-      <geometry x="2" y="26" w="1440" h="845"></geometry>
-      <showMidiTracks>1</showMidiTracks>
-      <showDrumTracks>1</showDrumTracks>
-      <showInputTracks>1</showInputTracks>
-      <showOutputTracks>1</showOutputTracks>
-      <showWaveTracks>1</showWaveTracks>
-      <showGroupTracks>1</showGroupTracks>
-      <showAuxTracks>1</showAuxTracks>
-      <showSyntiTracks>1</showSyntiTracks>
-      </Mixer>
     <arranger>
-      <arsplit>302 926 </arsplit>
+      <arsplit>498 727 </arsplit>
       <list>
         <trackHeaders> 8 7 6 5 4 3 2 1 0 </trackHeaders>
         </list>
       <xpos>0</xpos>
       <xmag>266</xmag>
-      <ypos>0</ypos>
+      <ypos>1061</ypos>
       </arranger>
     <sequencer>
       <metronom>
@@ -68,7 +56,7 @@
       <rcGotoLeft>33</rcGotoLeft>
       <rcPlay>29</rcPlay>
       <midiport idx="0">
-        <name>jack-midi-0</name>
+        <name>DD-Bass1</name>
         <type>1</type>
         <openFlags>3</openFlags>
         <channel idx="0">
@@ -3272,15 +3260,15 @@
     <drumedit>
       <quant>96</quant>
       <raster>96</raster>
-      <width>1440</width>
-      <height>845</height>
-      <dlistwidth>205</dlistwidth>
-      <dcanvaswidth>1232</dcanvaswidth>
+      <width>600</width>
+      <height>400</height>
+      <dlistwidth>50</dlistwidth>
+      <dcanvaswidth>300</dcanvaswidth>
       <to>0</to>
       </drumedit>
     <pianoroll>
       <quant>96</quant>
-      <raster>1536</raster>
+      <raster>96</raster>
       <quantStrength>80</quantStrength>
       <quantLimit>50</quantLimit>
       <quantLen>0</quantLen>
@@ -3293,16 +3281,16 @@
       <raster>0</raster>
       </masteredit>
     <waveedit>
-      <bgcolor r="200" g="200" b="200"></bgcolor>
-      <width>1440</width>
-      <height>845</height>
+      <bgcolor r="23" g="23" b="23"></bgcolor>
+      <width>600</width>
+      <height>400</height>
       </waveedit>
     </configuration>
   <song>
     <info></info>
     <associatedRoute></associatedRoute>
     <automation>1</automation>
-    <cpos>1140</cpos>
+    <cpos>32849</cpos>
     <rpos>110592</rpos>
     <lpos>0</lpos>
     <master>1</master>
@@ -3444,7 +3432,7 @@
       <part>
         <name>Grand Piano</name>
         <poslen tick="0" len="61440" />
-        <selected>1</selected>
+        <selected>0</selected>
         <color>0</color>
         </part>
       </miditrack>
@@ -3600,32 +3588,15 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1.02164">
+      <controller id="0" cur="1.02164" color="#db8100" visible="0">
         0 1.02164,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
         0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
         0 0,         
         </controller>
-      <part>
-        <name>Audio Trumpet1</name>
-        <poslen sample="0" len="288000" />
-        <selected>0</selected>
-        <color>0</color>
-        <event>
-          <poslen sample="0" len="278528" />
-          <frame>0</frame>
-          <file>rec1.wav</file>
-          </event>
-        </part>
-      <part>
-        <name>Audio Trumpet1</name>
-        <poslen sample="0" len="4994903" />
-        <selected>0</selected>
-        <color>0</color>
-        </part>
       </wavetrack>
     <miditrack>
       <name>FCH-Flugelhorn1</name>
@@ -3666,7 +3637,6 @@
       <channels>0</channels>
       <height>40</height>
       <locked>0</locked>
-      <selected>1</selected>
       <device>9</device>
       <channel>1</channel>
       <locked>0</locked>
@@ -4206,13 +4176,14 @@
       </miditrack>
     <miditrack>
       <name>NDK-Funkkit</name>
-      <record>0</record>
+      <record>1</record>
       <mute>0</mute>
       <solo>1</solo>
       <off>0</off>
       <channels>0</channels>
       <height>40</height>
       <locked>0</locked>
+      <selected>1</selected>
       <device>30</device>
       <channel>0</channel>
       <locked>0</locked>
@@ -4225,8 +4196,8 @@
       <automation>1</automation>
       <part>
         <name></name>
-        <poslen tick="0" len="110592" />
-        <selected>0</selected>
+        <poslen tick="0" len="112128" />
+        <selected>1</selected>
         <color>0</color>
         <event tick="0" type="1" a="262145" b="16776961" />
         <event tick="0" len="385" a="44" b="127" c="127" />
@@ -5469,13 +5440,13 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
         0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
         0 0,         
         </controller>
       </wavetrack>
@@ -5493,13 +5464,13 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
         0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
         0 0,         
         </controller>
       </AudioInput>
@@ -5518,13 +5489,13 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1.30152">
+      <controller id="0" cur="1.30152" color="#db8100" visible="0">
         0 1.30152,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
         0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
         0 0,         
         </controller>
       </AudioInput>
@@ -5542,13 +5513,13 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="0.739776">
+      <controller id="0" cur="0.739776" color="#db8100" visible="0">
         0 0.739776,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
         0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
         0 0,         
         </controller>
       </AudioInput>
@@ -5566,13 +5537,13 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
         0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
         0 0,         
         </controller>
       </AudioInput>
@@ -5590,12 +5561,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -5612,12 +5585,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -5634,12 +5609,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -5656,12 +5633,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -5678,12 +5657,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -5700,12 +5681,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -5722,12 +5705,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -5744,12 +5729,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -5766,12 +5753,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -5788,12 +5777,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -5810,12 +5801,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -5832,12 +5825,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -5854,12 +5849,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -5876,12 +5873,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -5898,12 +5897,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -5920,12 +5921,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -5942,12 +5945,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -5964,12 +5969,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -5986,12 +5993,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -6008,12 +6017,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -6030,12 +6041,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -6052,12 +6065,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -6074,12 +6089,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -6096,12 +6113,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -6118,12 +6137,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -6140,12 +6161,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -6162,12 +6185,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -6184,12 +6209,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioInput>
@@ -6206,12 +6233,14 @@
       <automation>0</automation>
       <auxSend idx="0">0</auxSend>
       <auxSend idx="1">0</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioInput>
     <AudioOutput>
@@ -6226,13 +6255,13 @@
       <prefader>0</prefader>
       <sendMetronome>0</sendMetronome>
       <automation>0</automation>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
         0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
         0 0,         
         </controller>
       </AudioOutput>
@@ -6249,13 +6278,13 @@
       <prefader>0</prefader>
       <sendMetronome>0</sendMetronome>
       <automation>0</automation>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
         0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
         0 0,         
         </controller>
       </AudioOutput>
@@ -6272,13 +6301,13 @@
       <prefader>0</prefader>
       <sendMetronome>0</sendMetronome>
       <automation>0</automation>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
         0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
         0 0,         
         </controller>
       </AudioOutput>
@@ -6296,13 +6325,13 @@
       <automation>0</automation>
       <auxSend idx="0">0.882138</auxSend>
       <auxSend idx="1">0.787967</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
         0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
         0 0,         
         </controller>
       </AudioBuss>
@@ -6320,13 +6349,13 @@
       <automation>0</automation>
       <auxSend idx="0">0.00441451</auxSend>
       <auxSend idx="1">0.00668751</auxSend>
-      <controller id="0" cur="0.817288">
+      <controller id="0" cur="0.817288" color="#db8100" visible="0">
         0 0.817288,         
         </controller>
-      <controller id="1" cur="-0.4">
+      <controller id="1" cur="-0.4" color="#00db05" visible="0">
         0 -0.4,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
         0 0,         
         </controller>
       </AudioBuss>
@@ -6344,12 +6373,14 @@
       <automation>0</automation>
       <auxSend idx="0">0.232067</auxSend>
       <auxSend idx="1">0.157651</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioBuss>
     <AudioBuss>
@@ -6366,12 +6397,14 @@
       <automation>0</automation>
       <auxSend idx="0">0.019229</auxSend>
       <auxSend idx="1">0.00910282</auxSend>
-      <controller id="0" cur="0.667959">
+      <controller id="0" cur="0.667959" color="#db8100" visible="0">
         0 0.667959,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioBuss>
     <AudioBuss>
@@ -6388,12 +6421,14 @@
       <automation>0</automation>
       <auxSend idx="0">0.0493627</auxSend>
       <auxSend idx="1">0.0879887</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioBuss>
     <AudioBuss>
@@ -6410,12 +6445,14 @@
       <automation>0</automation>
       <auxSend idx="0">0.0879887</auxSend>
       <auxSend idx="1">0.106536</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioBuss>
     <AudioBuss>
@@ -6432,12 +6469,14 @@
       <automation>0</automation>
       <auxSend idx="0">0.0879887</auxSend>
       <auxSend idx="1">0.0879887</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioBuss>
     <AudioBuss>
@@ -6454,12 +6493,14 @@
       <automation>0</automation>
       <auxSend idx="0">0.129935</auxSend>
       <auxSend idx="1">0.129935</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioBuss>
     <AudioBuss>
@@ -6476,12 +6517,14 @@
       <automation>0</automation>
       <auxSend idx="0">0.0729266</auxSend>
       <auxSend idx="1">0.283731</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioBuss>
     <AudioBuss>
@@ -6498,12 +6541,14 @@
       <automation>0</automation>
       <auxSend idx="0">0.106536</auxSend>
       <auxSend idx="1">0.0729266</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioBuss>
     <AudioBuss>
@@ -6520,12 +6565,14 @@
       <automation>0</automation>
       <auxSend idx="0">0.0178942</auxSend>
       <auxSend idx="1">0.0129062</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioBuss>
     <AudioBuss>
@@ -6542,12 +6589,14 @@
       <automation>0</automation>
       <auxSend idx="0">0.0599357</auxSend>
       <auxSend idx="1">0.0599357</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioBuss>
     <AudioBuss>
@@ -6564,12 +6613,14 @@
       <automation>0</automation>
       <auxSend idx="0">0.157651</auxSend>
       <auxSend idx="1">0.283731</auxSend>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
+        0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
+        0 0,         
         </controller>
       </AudioBuss>
     <AudioAux>
@@ -6584,13 +6635,13 @@
       <prefader>0</prefader>
       <sendMetronome>0</sendMetronome>
       <automation>0</automation>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
         0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
         0 0,         
         </controller>
       </AudioAux>
@@ -6606,13 +6657,13 @@
       <prefader>0</prefader>
       <sendMetronome>0</sendMetronome>
       <automation>0</automation>
-      <controller id="0" cur="1">
+      <controller id="0" cur="1" color="#db8100" visible="0">
         0 1,         
         </controller>
-      <controller id="1" cur="0">
+      <controller id="1" cur="0" color="#00db05" visible="0">
         0 0,         
         </controller>
-      <controller id="2" cur="0">
+      <controller id="2" cur="0" color="#7100db" visible="0">
         0 0,         
         </controller>
       </AudioAux>
@@ -6722,52 +6773,6 @@
     <Route>
       <source name="Input NDK-Funkkit"/>
       <dest name="Audio NDK-Funkkit"/>
-      </Route>
-    <Route channel="1">
-      <source name="Master"/>
-      <dest type="1" name="system:playback_2"/>
-      </Route>
-    <Route channel="0">
-      <source name="Master"/>
-      <dest type="1" name="system:playback_1"/>
-      </Route>
-    <Route channel="0">
-      <source name="Jconv-ER-out
-"/>
-      <dest type="1" name="jconvolver:In-1"/>
-      </Route>
-    <Route channel="1">
-      <source name="Jconv-ER-out
-"/>
-      <dest type="1" name="jconvolver:In-2"/>
-      </Route>
-    <Route channel="0">
-      <source name="Jconv-TAIL-out
-"/>
-      <dest type="1" name="jconvolver:In-3"/>
-      </Route>
-    <Route channel="1">
-      <source name="Jconv-TAIL-out
-"/>
-      <dest type="1" name="jconvolver:In-4"/>
-      </Route>
-    <Route channel="0" channels="2">
-      <source name="Buss Trumpet"/>
-      <dest name="Master"/>
-      </Route>
-    <Route>
-      <source name="Buss NDK-Drums"/>
-      <dest name="Master"/>
-      </Route>
-    <Route>
-      <source name="Aux ER"/>
-      <dest name="Jconv-ER-out
-"/>
-      </Route>
-    <Route>
-      <source name="Aux TAIL"/>
-      <dest name="Jconv-TAIL-out
-"/>
       </Route>
     <Route channel="0">
       <source type="1" name="LinuxSampler0:1_FCH-Trumpet2"/>
@@ -7117,6 +7122,42 @@
       <source name="Input Piano1"/>
       <dest name="Buss Piano"/>
       </Route>
+    <Route channel="1">
+      <source name="Master"/>
+      <dest type="1" name="system:playback_2"/>
+      </Route>
+    <Route channel="0">
+      <source name="Master"/>
+      <dest type="1" name="system:playback_1"/>
+      </Route>
+    <Route channel="0">
+      <source name="Jconv-ER-out
+"/>
+      <dest type="1" name="jconvolver:In-1"/>
+      </Route>
+    <Route channel="1">
+      <source name="Jconv-ER-out
+"/>
+      <dest type="1" name="jconvolver:In-2"/>
+      </Route>
+    <Route channel="0">
+      <source name="Jconv-TAIL-out
+"/>
+      <dest type="1" name="jconvolver:In-3"/>
+      </Route>
+    <Route channel="1">
+      <source name="Jconv-TAIL-out
+"/>
+      <dest type="1" name="jconvolver:In-4"/>
+      </Route>
+    <Route channel="0" channels="2">
+      <source name="Buss Trumpet"/>
+      <dest name="Master"/>
+      </Route>
+    <Route>
+      <source name="Buss NDK-Drums"/>
+      <dest name="Master"/>
+      </Route>
     <Route>
       <source name="Buss Piano"/>
       <dest name="Master"/>
@@ -7160,6 +7201,16 @@
     <Route>
       <source name="Buss FrenchHorn"/>
       <dest name="Master"/>
+      </Route>
+    <Route>
+      <source name="Aux ER"/>
+      <dest name="Jconv-ER-out
+"/>
+      </Route>
+    <Route>
+      <source name="Aux TAIL"/>
+      <dest name="Jconv-TAIL-out
+"/>
       </Route>
     <trackview>
       <name>jazzband</name>
@@ -7297,12 +7348,8 @@
       <vtrack>NDK-Funkkit</vtrack>
       </trackview>
     <Route>
-      <source devtype="1" name="jack-midi-0"/>
+      <source devtype="1" name="DD-Bass1"/>
       <dest type="1" name="LSJPort0:DanDean-Bassguitar"/>
-      </Route>
-    <Route>
-      <source type="1" name="firewire_pcm:C4_dev0_Unknown3"/>
-      <dest devtype="1" name="jack-midi-1"/>
       </Route>
     <Route>
       <source devtype="1" name="jack-midi-1"/>
@@ -7952,6 +7999,4 @@
         </entry>
       </drummap>
     </song>
-  <toplevels>
-    </toplevels>
   </oom>

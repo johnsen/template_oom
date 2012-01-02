@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<oom version="1.0">
+  
+    <MidiInstrument name="FirstCallHorns-ImprovsAndRiffs-Tb">
+      
+		<PatchGroup name="Improvs_and_Riffs">
+			<Patch name="Tb_Bucket_Mute_Riffs" hbank="0" lbank="0" prog="0"/>
+			<Patch name="Tb_Cup_Mute_Riffs" hbank="0" lbank="0" prog="1"/>
+			<Patch name="Tb_Harmon_Mute_Riffs" hbank="0" lbank="0" prog="2"/>
+			<Patch name="Tb_Improv_1" hbank="0" lbank="0" prog="3"/>
+			<Patch name="Tb_Improv_2" hbank="0" lbank="0" prog="4"/>
+			<Patch name="Tb_Plunger_Mute_Riffs" hbank="0" lbank="0" prog="5"/>
+			<Patch name="Tb_Riffs_1" hbank="0" lbank="0" prog="6"/>
+			<Patch name="Tb_Riffs_2" hbank="0" lbank="0" prog="7"/>
+		</PatchGroup>
+		<PatchGroup name="Trombone">
+			<Patch name="Tb_KeySw" hbank="0" lbank="1" prog="0"/>
+		</PatchGroup>
+
+    <Controller name="Modulation" l="1"/><Controller name="reverb" l="3"/><Controller name="MainVolume" l="7"/><Controller name="Pan" l="10"/><Controller name="Expression" l="11"/><Controller name="Program" type="Program" init="0x0"/></MidiInstrument>
+  
+</oom>

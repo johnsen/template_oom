@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<oom version="1.0">
+  
+    <MidiInstrument name="FirstCallHorns-TrumpetStraightMute">
+      
+		<PatchGroup name="Trumpet_Straight_Mute">
+			<Patch name="Trumpet_Straight_Mute_No_Vibrato" hbank="0" lbank="0" prog="0"/>
+			<Patch name="Trumpet_Straight_Mute_Vibrato" hbank="0" lbank="0" prog="1"/>
+			<Patch name="Trumpet_Straight_Mute_Closed" hbank="0" lbank="0" prog="2"/>
+			<Patch name="Trumpet_Straight_Mute_Duet" hbank="0" lbank="0" prog="3"/>
+			<Patch name="Trumpet_Straight_Mute_FPSwell" hbank="0" lbank="0" prog="4"/>
+			<Patch name="Trumpet_Straight_Mute_Shakes" hbank="0" lbank="0" prog="5"/>
+			<Patch name="Trumpet_Straight_Mute_Swell" hbank="0" lbank="0" prog="6"/>
+			<Patch name="Trumpet_Straight_Mute_KeySwitch" hbank="0" lbank="0" prog="7"/>
+		</PatchGroup>
+
+    <Controller name="Modulation" l="1"/><Controller name="reverb" l="3"/><Controller name="MainVolume" l="7"/><Controller name="Pan" l="10"/><Controller name="Expression" l="11"/><Controller name="Program" type="Program" init="0x0"/></MidiInstrument>
+  
+</oom>

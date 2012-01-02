@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<oom version="1.0">
+  
+    <MidiInstrument name="DD-AcousticBass">
+      
+		<PatchGroup name="Acoustic_Bass_PzM">
+			<Patch name="Acoustic_Bass_PzM" hbank="0" lbank="0" prog="0"/>
+		</PatchGroup>
+		<PatchGroup name="Acoustic_Bass_PzSt">
+			<Patch name="Acoustic_Bass_PzSt" hbank="0" lbank="1" prog="0"/>
+		</PatchGroup>
+
+    <Controller name="Modulation" l="1"/><Controller name="reverb" l="3"/><Controller name="MainVolume" l="7"/><Controller name="Pan" l="10"/><Controller name="Expression" l="11"/><Controller name="Program" type="Program" init="0x0"/></MidiInstrument>
+  
+</oom>

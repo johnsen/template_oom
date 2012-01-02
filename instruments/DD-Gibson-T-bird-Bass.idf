@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<oom version="1.0">
+  
+    <MidiInstrument name="DD-Gibson-T-bird-Bass">
+      
+		<PatchGroup name="Gibson_T-bird_Bass">
+			<Patch name="Gibson_T-bird_FA" hbank="0" lbank="0" prog="0"/>
+			<Patch name="Gibson_T-bird_FH" hbank="0" lbank="0" prog="1"/>
+			<Patch name="Gibson_T-bird_PA" hbank="0" lbank="0" prog="2"/>
+			<Patch name="Gibson_T-bird_PB" hbank="0" lbank="0" prog="3"/>
+			<Patch name="Gibson_T-bird_PF" hbank="0" lbank="0" prog="4"/>
+			<Patch name="Gibson_T-bird_PH" hbank="0" lbank="0" prog="5"/>
+			<Patch name="Gibson_Thunderbird_Keyswitch" hbank="0" lbank="0" prog="6"/>
+		</PatchGroup>
+
+    <Controller name="Modulation" l="1"/><Controller name="reverb" l="3"/><Controller name="MainVolume" l="7"/><Controller name="Pan" l="10"/><Controller name="Expression" l="11"/><Controller name="Program" type="Program" init="0x0"/></MidiInstrument>
+  
+</oom>

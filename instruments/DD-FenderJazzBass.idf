@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<oom version="1.0">
+  
+    <MidiInstrument name="DD-FenderJazzBass">
+      
+		<PatchGroup name="Fender_Jazz_Bass">
+			<Patch name="Fender_Jazz_FB" hbank="0" lbank="0" prog="0"/>
+			<Patch name="Fender_Jazz_FH" hbank="0" lbank="0" prog="1"/>
+			<Patch name="Fender_Jazz_Keyswitch" hbank="0" lbank="0" prog="2"/>
+			<Patch name="Fender_Jazz_PB" hbank="0" lbank="0" prog="3"/>
+			<Patch name="Fender_Jazz_PH" hbank="0" lbank="0" prog="4"/>
+		</PatchGroup>
+
+    <Controller name="Modulation" l="1"/><Controller name="reverb" l="3"/><Controller name="MainVolume" l="7"/><Controller name="Pan" l="10"/><Controller name="Expression" l="11"/><Controller name="Program" type="Program" init="0x0"/></MidiInstrument>
+  
+</oom>
